@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673551221074,
+  "lastUpdate": 1673558783239,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -319,6 +319,42 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 438950646,
             "range": "± 5570335",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c44466990ebaed1559b538fbb226fa10de125432",
+          "message": "Merge pull request #265 from candy-lang/run-benchmark-ci-on-main\n\nRun benchmark CI on main",
+          "timestamp": "2023-01-12T22:15:57+01:00",
+          "tree_id": "cb771d12eaecf8f0245b26817f73e16c7fb7d15b",
+          "url": "https://github.com/candy-lang/candy/commit/c44466990ebaed1559b538fbb226fa10de125432"
+        },
+        "date": 1673558782661,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 16674366,
+            "range": "± 3140799",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 532421478,
+            "range": "± 11465797",
             "unit": "ns/iter"
           }
         ]
