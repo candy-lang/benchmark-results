@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673548077974,
+  "lastUpdate": 1673548228007,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -159,6 +159,38 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 442435938,
             "range": "± 3803045",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "candy-lang",
+            "username": "candy-lang"
+          },
+          "committer": {
+            "name": "candy-lang",
+            "username": "candy-lang"
+          },
+          "id": "fb019624b87ef082be13a904eae587a9408fee27",
+          "message": "Don't clone MIR for optimizations",
+          "timestamp": "2023-01-07T02:55:45Z",
+          "url": "https://github.com/candy-lang/candy/pull/264/commits/fb019624b87ef082be13a904eae587a9408fee27"
+        },
+        "date": 1673548227765,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 11112743,
+            "range": "± 210447",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 445984462,
+            "range": "± 2289672",
             "unit": "ns/iter"
           }
         ]
