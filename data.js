@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674151372976,
+  "lastUpdate": 1674163281858,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -539,6 +539,54 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 168178522,
             "range": "± 1399967",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0f0a045692ffd0d4b02a8163a8fea7a12b0487a",
+          "message": "Merge pull request #272 from candy-lang/shorten-ids-in-debug-outputs",
+          "timestamp": "2023-01-19T22:11:48+01:00",
+          "tree_id": "b5d50ba23233b2997a2040000016e174a0def052",
+          "url": "https://github.com/candy-lang/candy/commit/e0f0a045692ffd0d4b02a8163a8fea7a12b0487a"
+        },
+        "date": 1674163281624,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Compiler/hello_world",
+            "value": 16635953,
+            "range": "± 401964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Compiler/fibonacci",
+            "value": 117690145,
+            "range": "± 831325",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 16172757,
+            "range": "± 353466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 180518959,
+            "range": "± 920762",
             "unit": "ns/iter"
           }
         ]
