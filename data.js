@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674147199469,
+  "lastUpdate": 1674151372976,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -491,6 +491,54 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 175161719,
             "range": "± 2980946",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b714114c7dcc2de822b6633d141fca9caf88570f",
+          "message": "Merge pull request #271 from candy-lang/270-compiler-use-faster-hashmap-implementation-for-common-subtree-elimination-cse\n\nUse rustc-hash in MIR optimizations",
+          "timestamp": "2023-01-19T18:54:14+01:00",
+          "tree_id": "52a306dba8328e3bae738abb2d118bf994c2a820",
+          "url": "https://github.com/candy-lang/candy/commit/b714114c7dcc2de822b6633d141fca9caf88570f"
+        },
+        "date": 1674151372432,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Compiler/hello_world",
+            "value": 12587114,
+            "range": "± 470514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Compiler/fibonacci",
+            "value": 111637432,
+            "range": "± 594662",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 12246632,
+            "range": "± 146168",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 168178522,
+            "range": "± 1399967",
             "unit": "ns/iter"
           }
         ]
