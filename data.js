@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674137658289,
+  "lastUpdate": 1674147199469,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -455,6 +455,42 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 176084961,
             "range": "± 1811938",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7f22186446912aa4d306fe4766290bb713e5c9b",
+          "message": "Merge pull request #267 from candy-lang/fuzzing",
+          "timestamp": "2023-01-19T17:45:01+01:00",
+          "tree_id": "7792b320107748426eb64121c55ae3b540c4cc22",
+          "url": "https://github.com/candy-lang/candy/commit/a7f22186446912aa4d306fe4766290bb713e5c9b"
+        },
+        "date": 1674147199141,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 14311363,
+            "range": "± 596308",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 175161719,
+            "range": "± 2980946",
             "unit": "ns/iter"
           }
         ]
