@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673888884347,
+  "lastUpdate": 1674137658289,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -419,6 +419,42 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 448294835,
             "range": "± 5970916",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c3d4ea23c6f4aac851af6467d4928a48e47610b",
+          "message": "Merge pull request #268 from candy-lang/vec-as-heap\n\nImplement heap using `Vec`",
+          "timestamp": "2023-01-19T15:06:44+01:00",
+          "tree_id": "8c290fcbeb9f3e5fec673159823c80134062cf15",
+          "url": "https://github.com/candy-lang/candy/commit/7c3d4ea23c6f4aac851af6467d4928a48e47610b"
+        },
+        "date": 1674137658026,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 13772070,
+            "range": "± 379373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 176084961,
+            "range": "± 1811938",
             "unit": "ns/iter"
           }
         ]
