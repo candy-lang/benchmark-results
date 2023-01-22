@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674164658561,
+  "lastUpdate": 1674416551570,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -635,6 +635,54 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 170564708,
             "range": "± 2546090",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10430a04045dc127d65d415be50db2e4f2ec1641",
+          "message": "Merge pull request #275 from candy-lang/recursive-helper\n\nAdd helper for recursive functions",
+          "timestamp": "2023-01-22T20:31:20+01:00",
+          "tree_id": "14b5b0acde99186cd8a00a325916170f716975d8",
+          "url": "https://github.com/candy-lang/candy/commit/10430a04045dc127d65d415be50db2e4f2ec1641"
+        },
+        "date": 1674416551012,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Compiler/hello_world",
+            "value": 18936992,
+            "range": "± 1354637",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Compiler/fibonacci",
+            "value": 149838384,
+            "range": "± 3401719",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/hello_world",
+            "value": 18678585,
+            "range": "± 1182711",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "VM Runtime/fibonacci/15",
+            "value": 220812749,
+            "range": "± 4141692",
             "unit": "ns/iter"
           }
         ]
