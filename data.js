@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674416551570,
+  "lastUpdate": 1674776659383,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -683,6 +683,54 @@ window.BENCHMARK_DATA = {
             "name": "VM Runtime/fibonacci/15",
             "value": 220812749,
             "range": "± 4141692",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7785d474548d665cf07a9cda0579e09b11d9c37e",
+          "message": "Merge pull request #277 from candy-lang/measure-cycles-in-benchmarks\n\nMeasure cycles in benchmarks",
+          "timestamp": "2023-01-27T00:32:09+01:00",
+          "tree_id": "48ffabacabdb4d738b7c61dd5c08b6430dbc39ed",
+          "url": "https://github.com/candy-lang/candy/commit/7785d474548d665cf07a9cda0579e09b11d9c37e"
+        },
+        "date": 1674776659131,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18797570,
+            "range": "± 393064",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 136403551,
+            "range": "± 2142061",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 17086199,
+            "range": "± 774742",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 210810256,
+            "range": "± 3197927",
             "unit": "ns/iter"
           }
         ]
