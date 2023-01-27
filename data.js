@@ -22,13 +22,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 16622798,
             "range": "± 1763747",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 564313335,
             "range": "± 11936706",
             "unit": "ns/iter"
@@ -54,13 +54,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11241997,
             "range": "± 183377",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 444014133,
             "range": "± 3643338",
             "unit": "ns/iter"
@@ -86,13 +86,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 13902632,
             "range": "± 306296",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 427185862,
             "range": "± 4656324",
             "unit": "ns/iter"
@@ -118,13 +118,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 13314864,
             "range": "± 962651",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 510049866,
             "range": "± 24761475",
             "unit": "ns/iter"
@@ -150,13 +150,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11129542,
             "range": "± 266108",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 442435938,
             "range": "± 3803045",
             "unit": "ns/iter"
@@ -182,13 +182,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11112743,
             "range": "± 210447",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 445984462,
             "range": "± 2289672",
             "unit": "ns/iter"
@@ -214,13 +214,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11087921,
             "range": "± 953512",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 443866983,
             "range": "± 8811608",
             "unit": "ns/iter"
@@ -246,13 +246,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11444556,
             "range": "± 231123",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 465630030,
             "range": "± 3339118",
             "unit": "ns/iter"
@@ -278,13 +278,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 11288518,
             "range": "± 169210",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 463734399,
             "range": "± 5134145",
             "unit": "ns/iter"
@@ -310,13 +310,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 10709411,
             "range": "± 174866",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 438950646,
             "range": "± 5570335",
             "unit": "ns/iter"
@@ -346,13 +346,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 16674366,
             "range": "± 3140799",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 532421478,
             "range": "± 11465797",
             "unit": "ns/iter"
@@ -378,13 +378,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 13143373,
             "range": "± 274637",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 412035547,
             "range": "± 1629600",
             "unit": "ns/iter"
@@ -410,13 +410,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 10986280,
             "range": "± 209604",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 448294835,
             "range": "± 5970916",
             "unit": "ns/iter"
@@ -446,13 +446,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 13772070,
             "range": "± 379373",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 176084961,
             "range": "± 1811938",
             "unit": "ns/iter"
@@ -482,13 +482,13 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 14311363,
             "range": "± 596308",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 175161719,
             "range": "± 2980946",
             "unit": "ns/iter"
@@ -518,25 +518,25 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "Compiler/hello_world",
+            "name": "Time: Compiler/hello_world",
             "value": 12587114,
             "range": "± 470514",
             "unit": "ns/iter"
           },
           {
-            "name": "Compiler/fibonacci",
+            "name": "Time: Compiler/fibonacci",
             "value": 111637432,
             "range": "± 594662",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 12246632,
             "range": "± 146168",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 168178522,
             "range": "± 1399967",
             "unit": "ns/iter"
@@ -566,25 +566,25 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "Compiler/hello_world",
+            "name": "Time: Compiler/hello_world",
             "value": 16635953,
             "range": "± 401964",
             "unit": "ns/iter"
           },
           {
-            "name": "Compiler/fibonacci",
+            "name": "Time: Compiler/fibonacci",
             "value": 117690145,
             "range": "± 831325",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 16172757,
             "range": "± 353466",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 180518959,
             "range": "± 920762",
             "unit": "ns/iter"
@@ -614,25 +614,25 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "Compiler/hello_world",
+            "name": "Time: Compiler/hello_world",
             "value": 12887462,
             "range": "± 314475",
             "unit": "ns/iter"
           },
           {
-            "name": "Compiler/fibonacci",
+            "name": "Time: Compiler/fibonacci",
             "value": 111992132,
             "range": "± 1082970",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 12358464,
             "range": "± 325134",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 170564708,
             "range": "± 2546090",
             "unit": "ns/iter"
@@ -662,25 +662,25 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "Compiler/hello_world",
+            "name": "Time: Compiler/hello_world",
             "value": 18936992,
             "range": "± 1354637",
             "unit": "ns/iter"
           },
           {
-            "name": "Compiler/fibonacci",
+            "name": "Time: Compiler/fibonacci",
             "value": 149838384,
             "range": "± 3401719",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/hello_world",
+            "name": "Time: VM Runtime/hello_world",
             "value": 18678585,
             "range": "± 1182711",
             "unit": "ns/iter"
           },
           {
-            "name": "VM Runtime/fibonacci/15",
+            "name": "Time: VM Runtime/fibonacci/15",
             "value": 220812749,
             "range": "± 4141692",
             "unit": "ns/iter"
