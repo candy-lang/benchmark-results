@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674776659383,
+  "lastUpdate": 1675279616795,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -731,6 +731,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 210810256,
             "range": "± 3197927",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa413100887c125597d98d6c1dc22e4c62b7894d",
+          "message": "Merge pull request #274 from candy-lang/better-fuzzer",
+          "timestamp": "2023-02-01T20:16:09+01:00",
+          "tree_id": "1de78ba4336a80161d3df7e4a76b3ed78269b925",
+          "url": "https://github.com/candy-lang/candy/commit/aa413100887c125597d98d6c1dc22e4c62b7894d"
+        },
+        "date": 1675279616505,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16723682,
+            "range": "± 547928",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 114873779,
+            "range": "± 1521586",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15174456,
+            "range": "± 567899",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 178568844,
+            "range": "± 1679071",
             "unit": "ns/iter"
           }
         ]
