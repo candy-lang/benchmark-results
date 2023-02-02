@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675375395214,
+  "lastUpdate": 1675378749902,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -827,6 +827,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 252385163,
             "range": "± 1072039",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8030dde55f7609729d6dc1b240ab6aa335e77063",
+          "message": "Merge pull request #279 from candy-lang/simplify-primitive-assignments\n\nSimplify primitive assignments",
+          "timestamp": "2023-02-02T23:39:53+01:00",
+          "tree_id": "f98805cf1c02f62e7b27a32fc7f5d9a24403b4c8",
+          "url": "https://github.com/candy-lang/candy/commit/8030dde55f7609729d6dc1b240ab6aa335e77063"
+        },
+        "date": 1675378749491,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24109145,
+            "range": "± 349937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 538104078,
+            "range": "± 5033559",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 19013214,
+            "range": "± 343731",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 202563219,
+            "range": "± 1162003",
             "unit": "ns/iter"
           }
         ]
