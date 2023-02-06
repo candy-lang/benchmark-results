@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675378749902,
+  "lastUpdate": 1675676312324,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -875,6 +875,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 202563219,
             "range": "± 1162003",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5ba2f1ab5340f0503f7e1994e9071f69df96c8f",
+          "message": "Merge pull request #280 from candy-lang/or-patterns\n\nOr patterns",
+          "timestamp": "2023-02-06T10:18:45+01:00",
+          "tree_id": "1d77ba99d14ac962e569f6a3d78f5a71c42712c2",
+          "url": "https://github.com/candy-lang/candy/commit/e5ba2f1ab5340f0503f7e1994e9071f69df96c8f"
+        },
+        "date": 1675676312030,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19857238,
+            "range": "± 286491",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 562901787,
+            "range": "± 4486740",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15286404,
+            "range": "± 388966",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 188924568,
+            "range": "± 1935547",
             "unit": "ns/iter"
           }
         ]
