@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675676312324,
+  "lastUpdate": 1675678631216,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -923,6 +923,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 188924568,
             "range": "± 1935547",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4b894ae4fcb0bcf074c65e8268d6a2fb0298262",
+          "message": "Merge pull request #310 from candy-lang/convert-todos-into-issues",
+          "timestamp": "2023-02-06T10:57:41+01:00",
+          "tree_id": "131beb709f490b4b86b5bad170d13b5849f2f877",
+          "url": "https://github.com/candy-lang/candy/commit/c4b894ae4fcb0bcf074c65e8268d6a2fb0298262"
+        },
+        "date": 1675678630970,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19433743,
+            "range": "± 379091",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 557566062,
+            "range": "± 3231883",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 14840560,
+            "range": "± 549999",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 189110972,
+            "range": "± 1591513",
             "unit": "ns/iter"
           }
         ]
