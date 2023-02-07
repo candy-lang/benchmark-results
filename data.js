@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675678631216,
+  "lastUpdate": 1675763582926,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -971,6 +971,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 189110972,
             "range": "± 1591513",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc9cf757c2eafb9e70452fcd1a4afd546a427699",
+          "message": "Merge pull request #311 from candy-lang/separate-crates\n\nSeparate crates",
+          "timestamp": "2023-02-07T10:37:01+01:00",
+          "tree_id": "49a31ba5d4cf7dc1643339793d78af658800cd57",
+          "url": "https://github.com/candy-lang/candy/commit/bc9cf757c2eafb9e70452fcd1a4afd546a427699"
+        },
+        "date": 1675763582628,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23835522,
+            "range": "± 368697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 540211919,
+            "range": "± 7699237",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 18984798,
+            "range": "± 342149",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 203342702,
+            "range": "± 1993701",
             "unit": "ns/iter"
           }
         ]
