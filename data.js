@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675763582926,
+  "lastUpdate": 1675771331990,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1019,6 +1019,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 203342702,
             "range": "± 1993701",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00ac6d6c167995bfbc5653f4de70244e741aa88b",
+          "message": "Merge pull request #316 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-4.9.5\n\nBump typescript from 4.6.4 to 4.9.5 in /vscode_extension",
+          "timestamp": "2023-02-07T12:46:11+01:00",
+          "tree_id": "fcced94d0253934ba827fa9fd9f6c8f8a372446f",
+          "url": "https://github.com/candy-lang/candy/commit/00ac6d6c167995bfbc5653f4de70244e741aa88b"
+        },
+        "date": 1675771331347,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19410348,
+            "range": "± 229201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 561489644,
+            "range": "± 2202729",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 14905099,
+            "range": "± 580366",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 192262317,
+            "range": "± 1758407",
             "unit": "ns/iter"
           }
         ]
