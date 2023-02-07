@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675771842309,
+  "lastUpdate": 1675791650300,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1211,6 +1211,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 266596324,
             "range": "± 12540102",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20f3cfa125d847083dd58aa26800a9f5e8495ef1",
+          "message": "Merge pull request #318 from candy-lang/dependabot/cargo/compiler/language_server/tower-lsp-0.18.0\n\nUpdate tower-lsp requirement from 0.17.0 to 0.18.0 in /compiler/language_server",
+          "timestamp": "2023-02-07T18:25:23+01:00",
+          "tree_id": "192e86cc76e4a04a5940fe8f15ec9d0214d80a90",
+          "url": "https://github.com/candy-lang/candy/commit/20f3cfa125d847083dd58aa26800a9f5e8495ef1"
+        },
+        "date": 1675791649986,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25383814,
+            "range": "± 579823",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 543552180,
+            "range": "± 6274829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 20582930,
+            "range": "± 338991",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 205898376,
+            "range": "± 1424167",
             "unit": "ns/iter"
           }
         ]
