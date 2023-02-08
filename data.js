@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675859533125,
+  "lastUpdate": 1675859575976,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1451,6 +1451,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 200264803,
             "range": "± 1153719",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "244caf74b4c2a8acadf164d90d2016db503f16cc",
+          "message": "Merge pull request #312 from candy-lang/dependabot/cargo/tokio-1.24.2\n\nBump tokio from 1.23.1 to 1.24.2",
+          "timestamp": "2023-02-08T13:16:57+01:00",
+          "tree_id": "602f74a9335fdbad1cede16657ce957987eee0e7",
+          "url": "https://github.com/candy-lang/candy/commit/244caf74b4c2a8acadf164d90d2016db503f16cc"
+        },
+        "date": 1675859575539,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19221016,
+            "range": "± 336177",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 523377296,
+            "range": "± 3392434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15385700,
+            "range": "± 185853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 195631746,
+            "range": "± 1794024",
             "unit": "ns/iter"
           }
         ]
