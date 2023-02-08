@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675851918990,
+  "lastUpdate": 1675853689176,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1307,6 +1307,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 192548395,
             "range": "± 809532",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "933e2c92956d3ebf9a95f72bc55432e74d051e6d",
+          "message": "Merge pull request #320 from candy-lang/dependabot/cargo/compiler/cli/tracing-subscriber-0.3.16\n\nUpdate tracing-subscriber requirement from 0.2.0 to 0.3.16 in /compiler/cli",
+          "timestamp": "2023-02-08T11:38:00+01:00",
+          "tree_id": "04df309a14cf7391b49bfeecb07b7892b669bca9",
+          "url": "https://github.com/candy-lang/candy/commit/933e2c92956d3ebf9a95f72bc55432e74d051e6d"
+        },
+        "date": 1675853688733,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20493566,
+            "range": "± 420068",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 548029424,
+            "range": "± 4581412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15912758,
+            "range": "± 372272",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 194157109,
+            "range": "± 1728461",
             "unit": "ns/iter"
           }
         ]
