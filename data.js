@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675862652554,
+  "lastUpdate": 1675875044446,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1547,6 +1547,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 193680681,
             "range": "± 1563746",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86b12b0e901ecb0acb6bf1eb7adee51176b41853",
+          "message": "Merge pull request #326 from candy-lang/find-references-to-ints\n\nFind references to ints",
+          "timestamp": "2023-02-08T17:34:06+01:00",
+          "tree_id": "dad9605983889a7a1ec7a600f9bb055f433d4a65",
+          "url": "https://github.com/candy-lang/candy/commit/86b12b0e901ecb0acb6bf1eb7adee51176b41853"
+        },
+        "date": 1675875043942,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23701324,
+            "range": "± 342261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 545004931,
+            "range": "± 5148852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 18727090,
+            "range": "± 517544",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 198061787,
+            "range": "± 656412",
             "unit": "ns/iter"
           }
         ]
