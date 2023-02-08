@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675791650300,
+  "lastUpdate": 1675851918990,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1259,6 +1259,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 205898376,
             "range": "± 1424167",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5b57891fd16781739d7d19c49df4d4dd5994012",
+          "message": "Merge pull request #325 from candy-lang/fix-ci-for-dependabot-and-forks\n\nFix CI for dependabot and forks",
+          "timestamp": "2023-02-08T11:09:04+01:00",
+          "tree_id": "3228fa34fe402ef0a7f8e25cd837a4ca7eaf24ef",
+          "url": "https://github.com/candy-lang/candy/commit/f5b57891fd16781739d7d19c49df4d4dd5994012"
+        },
+        "date": 1675851918369,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20023805,
+            "range": "± 275821",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 530070172,
+            "range": "± 2597964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15628780,
+            "range": "± 307508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 192548395,
+            "range": "± 809532",
             "unit": "ns/iter"
           }
         ]
