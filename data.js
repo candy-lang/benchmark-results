@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675875044446,
+  "lastUpdate": 1676047030502,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1595,6 +1595,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 198061787,
             "range": "± 656412",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d152c582b158a2976e0607c828b3026d97a281a",
+          "message": "Merge pull request #327 from candy-lang/replace-structopt\n\nMove from structopt to clap",
+          "timestamp": "2023-02-10T17:20:33+01:00",
+          "tree_id": "824a93d2246e81b980ca9d82910dde5fd3993da6",
+          "url": "https://github.com/candy-lang/candy/commit/1d152c582b158a2976e0607c828b3026d97a281a"
+        },
+        "date": 1676047030027,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19983242,
+            "range": "± 302125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 532099983,
+            "range": "± 2937842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15615528,
+            "range": "± 385972",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 190656347,
+            "range": "± 2375417",
             "unit": "ns/iter"
           }
         ]
