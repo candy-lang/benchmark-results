@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676047030502,
+  "lastUpdate": 1676156629991,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1643,6 +1643,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 190656347,
             "range": "± 2375417",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72ecebd15ac548f85365aec85100572f9c5beb34",
+          "message": "Merge pull request #329 from candy-lang/core-fixes\n\nCore fixes and iterable additions",
+          "timestamp": "2023-02-11T23:46:38+01:00",
+          "tree_id": "d4b635868c259f4e2342cc4c6dae2a77e66bac7b",
+          "url": "https://github.com/candy-lang/candy/commit/72ecebd15ac548f85365aec85100572f9c5beb34"
+        },
+        "date": 1676156629364,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18614810,
+            "range": "± 490225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 515143562,
+            "range": "± 1015848",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 15371842,
+            "range": "± 179049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 190017488,
+            "range": "± 3029592",
             "unit": "ns/iter"
           }
         ]
