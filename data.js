@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676277898308,
+  "lastUpdate": 1676372215219,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1883,6 +1883,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 187797684,
             "range": "± 2795343",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a82d01d4e4a9911705cef3a24aeb74467ceee0db",
+          "message": "Merge pull request #335 from candy-lang/307-generate-debug-files-as-read-only-vs-code-views\n\nGenerate debug files (as read-only VS Code views)",
+          "timestamp": "2023-02-14T11:39:42+01:00",
+          "tree_id": "78cc5b1f3463013e935b51fed4b4b66a3cb5a023",
+          "url": "https://github.com/candy-lang/candy/commit/a82d01d4e4a9911705cef3a24aeb74467ceee0db"
+        },
+        "date": 1676372214676,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25306037,
+            "range": "± 516001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 535781644,
+            "range": "± 2560676",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 20170256,
+            "range": "± 507095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 198419186,
+            "range": "± 720989",
             "unit": "ns/iter"
           }
         ]
