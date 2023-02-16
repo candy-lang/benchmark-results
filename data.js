@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676372215219,
+  "lastUpdate": 1676574929644,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -1931,6 +1931,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 198419186,
             "range": "± 720989",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d211267cfb1c6b8e0b08867b228a09d12d6cc16",
+          "message": "Merge pull request #336 from candy-lang/more-debug-ir-features\n\nMore debug IR features",
+          "timestamp": "2023-02-16T19:53:43+01:00",
+          "tree_id": "3c4938641369bc4157a183fe827b6a588d4ee26c",
+          "url": "https://github.com/candy-lang/candy/commit/7d211267cfb1c6b8e0b08867b228a09d12d6cc16"
+        },
+        "date": 1676574929089,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25120724,
+            "range": "± 1747146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 652589866,
+            "range": "± 11604000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 20204330,
+            "range": "± 1721286",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 235424270,
+            "range": "± 6466048",
             "unit": "ns/iter"
           }
         ]
