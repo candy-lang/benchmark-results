@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677166879099,
+  "lastUpdate": 1677178665002,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2363,6 +2363,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 250683122,
             "range": "± 2093043",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ff6b5d26f601af9852bc483768faf1f714a6f63",
+          "message": "Merge pull request #343 from candy-lang/fixed-decimals",
+          "timestamp": "2023-02-23T19:35:11+01:00",
+          "tree_id": "537e15a2cb2aa1374dd4f67d0b066618c6c79255",
+          "url": "https://github.com/candy-lang/candy/commit/5ff6b5d26f601af9852bc483768faf1f714a6f63"
+        },
+        "date": 1677178664713,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24339103,
+            "range": "± 546903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 887873042,
+            "range": "± 3332966",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 19599907,
+            "range": "± 200098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 198526755,
+            "range": "± 1687323",
             "unit": "ns/iter"
           }
         ]
