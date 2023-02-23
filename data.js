@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676900107575,
+  "lastUpdate": 1677144654392,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2267,6 +2267,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 189734044,
             "range": "± 896423",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22fe978194ac6b1f9b3d8ecb26a1043f6142d0d5",
+          "message": "Merge pull request #344 from candy-lang/rich-ir-for-lir\n\nImplement ToRichIr for LIR",
+          "timestamp": "2023-02-23T10:10:09+01:00",
+          "tree_id": "84caba0074ee2694c9224e42caf05a422908fa54",
+          "url": "https://github.com/candy-lang/candy/commit/22fe978194ac6b1f9b3d8ecb26a1043f6142d0d5"
+        },
+        "date": 1677144653809,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 29031946,
+            "range": "± 1363210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 708862818,
+            "range": "± 22941978",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 22144452,
+            "range": "± 1511125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 245913884,
+            "range": "± 4986800",
             "unit": "ns/iter"
           }
         ]
