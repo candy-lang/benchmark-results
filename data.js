@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677144654392,
+  "lastUpdate": 1677166879099,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2315,6 +2315,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 245913884,
             "range": "± 4986800",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ad8d8beb93808cff535c4d5351b906726fcfa5a",
+          "message": "Merge pull request #328 from candy-lang/more-fixes\n\nFix some bugs and make core package richer",
+          "timestamp": "2023-02-23T16:16:35+01:00",
+          "tree_id": "d6249318ef34c15185c4d84234481aa290365e88",
+          "url": "https://github.com/candy-lang/candy/commit/8ad8d8beb93808cff535c4d5351b906726fcfa5a"
+        },
+        "date": 1677166878520,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 32101724,
+            "range": "± 955340",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 962495231,
+            "range": "± 9307315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 25174112,
+            "range": "± 479396",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 250683122,
+            "range": "± 2093043",
             "unit": "ns/iter"
           }
         ]
