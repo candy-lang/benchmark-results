@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677763838931,
+  "lastUpdate": 1677774089055,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2747,6 +2747,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 216577112,
             "range": "± 1141701",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f15ae8f222af8e85f42ac98b24ef5ef4a4b226c7",
+          "message": "Merge pull request #357 from candy-lang/update-tower-lsp",
+          "timestamp": "2023-03-02T17:11:42+01:00",
+          "tree_id": "038f69c76a0d565ffce6287218320436ad196a9f",
+          "url": "https://github.com/candy-lang/candy/commit/f15ae8f222af8e85f42ac98b24ef5ef4a4b226c7"
+        },
+        "date": 1677774088586,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25524502,
+            "range": "± 494094",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 190576696,
+            "range": "± 1067086",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 23240036,
+            "range": "± 550035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 213642606,
+            "range": "± 1972839",
             "unit": "ns/iter"
           }
         ]
