@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677761530727,
+  "lastUpdate": 1677761826023,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2603,6 +2603,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 209536512,
             "range": "± 3132416",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a905630b0483f77f079728643d8bae2d825a148",
+          "message": "Merge pull request #354 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-eslint/parser-5.54.0\n\nBump @typescript-eslint/parser from 5.52.0 to 5.54.0 in /vscode_extension",
+          "timestamp": "2023-03-02T13:47:07+01:00",
+          "tree_id": "f22fc8633099f33d51c824c618f569dbe7315c39",
+          "url": "https://github.com/candy-lang/candy/commit/1a905630b0483f77f079728643d8bae2d825a148"
+        },
+        "date": 1677761825591,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19365985,
+            "range": "± 836540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 189182435,
+            "range": "± 2429096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 17602812,
+            "range": "± 852716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 201024379,
+            "range": "± 4221092",
             "unit": "ns/iter"
           }
         ]
