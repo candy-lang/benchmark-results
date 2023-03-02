@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677763341462,
+  "lastUpdate": 1677763838931,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2699,6 +2699,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 248627209,
             "range": "± 3876640",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34712116ac8fe71dd2251a2b4c2560a429ad8568",
+          "message": "Merge pull request #345 from candy-lang/faster-parser\n\nMake the parser faster",
+          "timestamp": "2023-03-02T14:21:13+01:00",
+          "tree_id": "7b50f941923e060cf1a10bfc7c6dd12ac5a1e8ca",
+          "url": "https://github.com/candy-lang/candy/commit/34712116ac8fe71dd2251a2b4c2560a429ad8568"
+        },
+        "date": 1677763838620,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23845553,
+            "range": "± 497694",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 189178724,
+            "range": "± 1166199",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 23373994,
+            "range": "± 442906",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 216577112,
+            "range": "± 1141701",
             "unit": "ns/iter"
           }
         ]
