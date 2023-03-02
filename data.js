@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677746933498,
+  "lastUpdate": 1677752945047,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2459,6 +2459,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 202289236,
             "range": "± 2439325",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0914cd8b0cd6c0dc811838050f6ac39e492d967",
+          "message": "Merge pull request #353 from candy-lang/more-rich-ir-features\n\nMore `RichIr` features",
+          "timestamp": "2023-03-02T11:16:40+01:00",
+          "tree_id": "4db0f1f6aeb477ca4e52e4683967d402f2c9d862",
+          "url": "https://github.com/candy-lang/candy/commit/b0914cd8b0cd6c0dc811838050f6ac39e492d967"
+        },
+        "date": 1677752944357,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22076916,
+            "range": "± 1311572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 216661926,
+            "range": "± 9852318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 22584752,
+            "range": "± 2031405",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 246986031,
+            "range": "± 10376687",
             "unit": "ns/iter"
           }
         ]
