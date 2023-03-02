@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677774089055,
+  "lastUpdate": 1677798439268,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2795,6 +2795,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 213642606,
             "range": "± 1972839",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5098d92b52d4c646eed0472b0403d2d5e172d15c",
+          "message": "Merge pull request #346 from candy-lang/all-hail-the-hir-id-long-live-the-hir-id\n\nAll hail the HIR ID! Long live the HIR ID!",
+          "timestamp": "2023-03-02T23:54:51+01:00",
+          "tree_id": "8124e8279f3d3aef67322a3fae75d82cfa161fca",
+          "url": "https://github.com/candy-lang/candy/commit/5098d92b52d4c646eed0472b0403d2d5e172d15c"
+        },
+        "date": 1677798438601,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 26821210,
+            "range": "± 2841256",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 235032456,
+            "range": "± 5580901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 25730158,
+            "range": "± 2088462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 237654060,
+            "range": "± 10226567",
             "unit": "ns/iter"
           }
         ]
