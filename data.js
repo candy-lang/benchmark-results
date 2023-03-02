@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677754043215,
+  "lastUpdate": 1677761530727,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2555,6 +2555,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 257987126,
             "range": "± 7301509",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23c7244ad235d65b565fe9ee989fdbe1d3a09417",
+          "message": "Merge pull request #355 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-eslint/eslint-plugin-5.54.0\n\nBump @typescript-eslint/eslint-plugin from 5.52.0 to 5.54.0 in /vscode_extension",
+          "timestamp": "2023-03-02T13:42:24+01:00",
+          "tree_id": "6b5e224412aff1887222169b48bfa49591d20b0b",
+          "url": "https://github.com/candy-lang/candy/commit/23c7244ad235d65b565fe9ee989fdbe1d3a09417"
+        },
+        "date": 1677761530244,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24672317,
+            "range": "± 479299",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 196965862,
+            "range": "± 1145059",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 22961088,
+            "range": "± 643545",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 209536512,
+            "range": "± 3132416",
             "unit": "ns/iter"
           }
         ]
