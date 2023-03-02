@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677752945047,
+  "lastUpdate": 1677754043215,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2507,6 +2507,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 246986031,
             "range": "± 10376687",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e67b5901e5b128ab9df659710cf403de1c2b711",
+          "message": "Merge pull request #349 from candy-lang/dependabot/npm_and_yarn/vscode_extension/eslint-8.35.0\n\nBump eslint from 8.34.0 to 8.35.0 in /vscode_extension",
+          "timestamp": "2023-03-02T11:35:17+01:00",
+          "tree_id": "08d1a92c425e80e10515a97a2a76d7c91452b045",
+          "url": "https://github.com/candy-lang/candy/commit/6e67b5901e5b128ab9df659710cf403de1c2b711"
+        },
+        "date": 1677754042534,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25452470,
+            "range": "± 2465526",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 242630842,
+            "range": "± 13985003",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 23851342,
+            "range": "± 3168535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 257987126,
+            "range": "± 7301509",
             "unit": "ns/iter"
           }
         ]
