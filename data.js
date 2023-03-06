@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677798439268,
+  "lastUpdate": 1678103209947,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2843,6 +2843,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 237654060,
             "range": "± 10226567",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b9359a88c73dd84a7e4c3dfe8583cf685e29e31",
+          "message": "Merge pull request #358 from candy-lang/dependabot/npm_and_yarn/vscode_extension/glob-9.2.1\n\nBump glob from 8.1.0 to 9.2.1 in /vscode_extension",
+          "timestamp": "2023-03-06T12:35:47+01:00",
+          "tree_id": "36430e7a72aec61c55af16cead6bc49dcfb6b94e",
+          "url": "https://github.com/candy-lang/candy/commit/3b9359a88c73dd84a7e4c3dfe8583cf685e29e31"
+        },
+        "date": 1678103209647,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 26562439,
+            "range": "± 585447",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 199543947,
+            "range": "± 1295462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 24722046,
+            "range": "± 559658",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 214000550,
+            "range": "± 2265118",
             "unit": "ns/iter"
           }
         ]
