@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678104167551,
+  "lastUpdate": 1678301763724,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -2987,6 +2987,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 252516333,
             "range": "± 17007032",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cd7a00fa9d1f028bf5ca6ff3157a33f8d8bd941",
+          "message": "Merge pull request #361 from candy-lang/unify-cst-and-rcst\n\nUnify CST and RCST",
+          "timestamp": "2023-03-08T19:45:10+01:00",
+          "tree_id": "98d68ab54b4dafe2128d778904ec67381f5a496c",
+          "url": "https://github.com/candy-lang/candy/commit/8cd7a00fa9d1f028bf5ca6ff3157a33f8d8bd941"
+        },
+        "date": 1678301763411,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24489449,
+            "range": "± 466934",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 192594214,
+            "range": "± 708622",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 22727119,
+            "range": "± 394243",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 212417053,
+            "range": "± 3643663",
             "unit": "ns/iter"
           }
         ]
