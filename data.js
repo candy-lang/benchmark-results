@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679301465232,
+  "lastUpdate": 1679305933268,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -3371,6 +3371,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 200767657,
             "range": "± 2047965",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00700e90762e681ea53b73a573b6d81e5e2d7654",
+          "message": "Merge pull request #369 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-eslint/parser-5.55.0\n\nBump @typescript-eslint/parser from 5.54.1 to 5.55.0 in /vscode_extension",
+          "timestamp": "2023-03-20T10:41:09+01:00",
+          "tree_id": "df8783a22a58f2d86ee46a798fd115cfffbff74f",
+          "url": "https://github.com/candy-lang/candy/commit/00700e90762e681ea53b73a573b6d81e5e2d7654"
+        },
+        "date": 1679305932646,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20050140,
+            "range": "± 282108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 188535885,
+            "range": "± 1482900",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 18367724,
+            "range": "± 239984",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 200904634,
+            "range": "± 1424253",
             "unit": "ns/iter"
           }
         ]
