@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680109389005,
+  "lastUpdate": 1680109542243,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -3563,6 +3563,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 261770491,
             "range": "± 5041746",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "865ea813573001a41c775ae3f501f4e41bb87a2d",
+          "message": "Merge pull request #376 from candy-lang/dependabot/npm_and_yarn/vscode_extension/types/node-18.15.11\n\nBump @types/node from 18.15.3 to 18.15.11 in /vscode_extension",
+          "timestamp": "2023-03-29T18:22:32+02:00",
+          "tree_id": "c6559de45442d022ad497aa15c204b064b854bd2",
+          "url": "https://github.com/candy-lang/candy/commit/865ea813573001a41c775ae3f501f4e41bb87a2d"
+        },
+        "date": 1680109541547,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25294713,
+            "range": "± 571101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 211433936,
+            "range": "± 1598843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 23428644,
+            "range": "± 621488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 244399509,
+            "range": "± 2841319",
             "unit": "ns/iter"
           }
         ]
