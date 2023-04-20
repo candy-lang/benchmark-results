@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681113835026,
+  "lastUpdate": 1682006632126,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4139,6 +4139,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 199843679,
             "range": "± 4988324",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marcel.garus@gmail.com",
+            "name": "Marcel Garus",
+            "username": "MarcelGarus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4f673c8ecae64263c0cdc7f9a2904eb61718fa6",
+          "message": "Merge pull request #390 from candy-lang/package-marker",
+          "timestamp": "2023-04-20T17:56:19+02:00",
+          "tree_id": "de7efad67c0266bf196b3f81788d971bf8cca4f7",
+          "url": "https://github.com/candy-lang/candy/commit/f4f673c8ecae64263c0cdc7f9a2904eb61718fa6"
+        },
+        "date": 1682006631772,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1924462,
+            "range": "± 106302",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 857307552,
+            "range": "± 21193459",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 96923,
+            "range": "± 13319",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 259519708,
+            "range": "± 8540099",
             "unit": "ns/iter"
           }
         ]
