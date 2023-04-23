@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682266410925,
+  "lastUpdate": 1682266503894,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4571,6 +4571,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 205568446,
             "range": "± 2324120",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96e971c4e9cd81185925164dbf50448ae7305f0a",
+          "message": "Merge pull request #405 from candy-lang/migrate-away-from-actions-rs\n\nMigrate to dtolnay/rust-toolchain and Swatinem/rust-cache; use exact Action versions",
+          "timestamp": "2023-04-23T18:10:21+02:00",
+          "tree_id": "e55cc7b67964acc9672f72d81a2765fde0e20655",
+          "url": "https://github.com/candy-lang/candy/commit/96e971c4e9cd81185925164dbf50448ae7305f0a"
+        },
+        "date": 1682266503611,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1516515,
+            "range": "± 2708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 631714255,
+            "range": "± 2147239",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 70758,
+            "range": "± 1291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 206935555,
+            "range": "± 808413",
             "unit": "ns/iter"
           }
         ]
