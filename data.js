@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682266282406,
+  "lastUpdate": 1682266410925,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4523,6 +4523,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 247709103,
             "range": "± 10120738",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "acbb4fba5188c7724eede9a3b98d1e54eff135db",
+          "message": "Merge pull request #406 from candy-lang/make-width-copy\n\nMake Width Copy",
+          "timestamp": "2023-04-23T18:07:30+02:00",
+          "tree_id": "b56d8e714e15691d2f220ec10d06df691258d88d",
+          "url": "https://github.com/candy-lang/candy/commit/acbb4fba5188c7724eede9a3b98d1e54eff135db"
+        },
+        "date": 1682266410664,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1514214,
+            "range": "± 2913",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 630273643,
+            "range": "± 1703307",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 71068,
+            "range": "± 1369",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 205568446,
+            "range": "± 2324120",
             "unit": "ns/iter"
           }
         ]
