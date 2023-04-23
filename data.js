@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682265836745,
+  "lastUpdate": 1682266282406,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4475,6 +4475,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 260215445,
             "range": "± 10108891",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a70e369b7ae8f50aded9577c16fa87b598a7239",
+          "message": "Merge pull request #404 from candy-lang/fix-pipe-formatting\n\nPreserve necessary parentheses in BinaryBar's left during formatting",
+          "timestamp": "2023-04-23T18:04:02+02:00",
+          "tree_id": "b6fe35288d15ece7fa9460a2d12371a2f562216d",
+          "url": "https://github.com/candy-lang/candy/commit/8a70e369b7ae8f50aded9577c16fa87b598a7239"
+        },
+        "date": 1682266281858,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 2048384,
+            "range": "± 220967",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 805524314,
+            "range": "± 30221181",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 91272,
+            "range": "± 10222",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 247709103,
+            "range": "± 10120738",
             "unit": "ns/iter"
           }
         ]
