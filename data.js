@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682061940861,
+  "lastUpdate": 1682264197892,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4283,6 +4283,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 240910054,
             "range": "± 9971400",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4806a0e66d45e9646265ba558f9095260798af7f",
+          "message": "Merge pull request #403 from candy-lang/automerge-dependabot-prs\n\nAutomerge PRs and auto-approve minor/patch Dependabot PRs",
+          "timestamp": "2023-04-23T17:29:37+02:00",
+          "tree_id": "6a7b66e7bc0006620be6f88036feb7da499f248d",
+          "url": "https://github.com/candy-lang/candy/commit/4806a0e66d45e9646265ba558f9095260798af7f"
+        },
+        "date": 1682264197261,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1730839,
+            "range": "± 44937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 720079717,
+            "range": "± 10693328",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 80000,
+            "range": "± 4035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 238672732,
+            "range": "± 5328623",
             "unit": "ns/iter"
           }
         ]
