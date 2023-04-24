@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682266503894,
+  "lastUpdate": 1682326019483,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4619,6 +4619,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 206935555,
             "range": "± 808413",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@wanke.dev",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3e11b094e48793c7f30229e2448e1ce5290a665",
+          "message": "Merge pull request #411 from candy-lang/dependabot/github_actions/actions/labeler-4.1.0\n\nBump actions/labeler from 4.0.3 to 4.1.0",
+          "timestamp": "2023-04-24T10:41:32+02:00",
+          "tree_id": "db056a6f4ad3d006b217353fd5c6c98f282bf1ab",
+          "url": "https://github.com/candy-lang/candy/commit/d3e11b094e48793c7f30229e2448e1ce5290a665"
+        },
+        "date": 1682326018970,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1800587,
+            "range": "± 8584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 759802182,
+            "range": "± 2626659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 84872,
+            "range": "± 2893",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 253027092,
+            "range": "± 2518811",
             "unit": "ns/iter"
           }
         ]
