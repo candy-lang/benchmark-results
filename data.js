@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682421862687,
+  "lastUpdate": 1682445578911,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4859,6 +4859,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 264250936,
             "range": "± 12028473",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "81387843+skyz1@users.noreply.github.com",
+            "name": "Glenn Skrzypczak",
+            "username": "skyz1"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f40b46c6fac50a7da52d31df491f7f7f488ddafc",
+          "message": "Merge pull request #394 from candy-lang/tags\n\nAdd Tags",
+          "timestamp": "2023-04-25T19:55:56+02:00",
+          "tree_id": "67341d196a70c44ec6d23acce46bfb68bc3ed24b",
+          "url": "https://github.com/candy-lang/candy/commit/f40b46c6fac50a7da52d31df491f7f7f488ddafc"
+        },
+        "date": 1682445578470,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1645154,
+            "range": "± 4372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 680247735,
+            "range": "± 2062389",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 72488,
+            "range": "± 1991",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 203523771,
+            "range": "± 4872293",
             "unit": "ns/iter"
           }
         ]
