@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682405442489,
+  "lastUpdate": 1682421862687,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4811,6 +4811,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 203510028,
             "range": "± 3039469",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e038a09a184045359eaa9b9211fc035327845078",
+          "message": "Merge pull request #415 from candy-lang/automerge-everything\n\nAutomerge everything",
+          "timestamp": "2023-04-25T13:20:12+02:00",
+          "tree_id": "bf2270c8b9d12853bf236ef791485979fe7ee8fc",
+          "url": "https://github.com/candy-lang/candy/commit/e038a09a184045359eaa9b9211fc035327845078"
+        },
+        "date": 1682421862168,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 2086542,
+            "range": "± 144129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 876486423,
+            "range": "± 19143774",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 96813,
+            "range": "± 11681",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 264250936,
+            "range": "± 12028473",
             "unit": "ns/iter"
           }
         ]
