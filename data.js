@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682445578911,
+  "lastUpdate": 1682491053571,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4907,6 +4907,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 203523771,
             "range": "± 4872293",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c47fc1793fa125951e998a7d7bb6c34ccbd1b50",
+          "message": "Merge pull request #419 from candy-lang/dependabot/npm_and_yarn/vscode_extension/types/node-18.16.1\n\nBump @types/node from 18.16.0 to 18.16.1 in /vscode_extension",
+          "timestamp": "2023-04-26T08:31:15+02:00",
+          "tree_id": "a8a6154b5d0ed4979bbdc3245f8bdd110edd11c9",
+          "url": "https://github.com/candy-lang/candy/commit/3c47fc1793fa125951e998a7d7bb6c34ccbd1b50"
+        },
+        "date": 1682491053002,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 2258923,
+            "range": "± 78916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 941989980,
+            "range": "± 21922192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 91604,
+            "range": "± 16112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 284199777,
+            "range": "± 9085938",
             "unit": "ns/iter"
           }
         ]
