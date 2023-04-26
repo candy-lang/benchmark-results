@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682491053571,
+  "lastUpdate": 1682492950448,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -4955,6 +4955,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 284199777,
             "range": "± 9085938",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b6d31d886e2af19672b3030aa6d9eb06882999f",
+          "message": "Merge pull request #416 from candy-lang/rosetta-code\n\nTowers of Hanoi",
+          "timestamp": "2023-04-26T09:05:40+02:00",
+          "tree_id": "08073ec98fcf61fb2197756193add9f767cc60ea",
+          "url": "https://github.com/candy-lang/candy/commit/7b6d31d886e2af19672b3030aa6d9eb06882999f"
+        },
+        "date": 1682492950164,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1697819,
+            "range": "± 4532",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 690938840,
+            "range": "± 1646594",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 72589,
+            "range": "± 1740",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 217816436,
+            "range": "± 1970423",
             "unit": "ns/iter"
           }
         ]
