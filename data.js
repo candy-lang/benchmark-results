@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682492950448,
+  "lastUpdate": 1682505925458,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5003,6 +5003,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 217816436,
             "range": "± 1970423",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "acf9b84d1ddc562f737c0c556ca7a2885c66e5a1",
+          "message": "Merge pull request #418 from candy-lang/fix-expanduser\n\nReplace expanduser with shellexpand",
+          "timestamp": "2023-04-26T12:41:52+02:00",
+          "tree_id": "4b74296d4bdc48888a7d3585687845c7c99647b3",
+          "url": "https://github.com/candy-lang/candy/commit/acf9b84d1ddc562f737c0c556ca7a2885c66e5a1"
+        },
+        "date": 1682505925162,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1665597,
+            "range": "± 5772",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 686023718,
+            "range": "± 4063700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 74539,
+            "range": "± 2090",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 219354218,
+            "range": "± 1604197",
             "unit": "ns/iter"
           }
         ]
