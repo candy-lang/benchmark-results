@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682592056743,
+  "lastUpdate": 1682605564200,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5099,6 +5099,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 216790240,
             "range": "± 3331572",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d9107805159bf9ca6b9846a8a4e271e8a7e33130",
+          "message": "Merge pull request #401 from candy-lang/heap-object-representation\n\nHeap object representation",
+          "timestamp": "2023-04-27T16:21:00+02:00",
+          "tree_id": "1656ab35b715656f76f0d593639b0af22bb078e0",
+          "url": "https://github.com/candy-lang/candy/commit/d9107805159bf9ca6b9846a8a4e271e8a7e33130"
+        },
+        "date": 1682605563583,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 2352317,
+            "range": "± 39703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 894744869,
+            "range": "± 11882045",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 138597,
+            "range": "± 4527",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 1703778764,
+            "range": "± 31871348",
             "unit": "ns/iter"
           }
         ]
