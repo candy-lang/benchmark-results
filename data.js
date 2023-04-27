@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682505925458,
+  "lastUpdate": 1682592056743,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5051,6 +5051,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 219354218,
             "range": "± 1604197",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d90f9301de7e2850a13505d3fea49311872aa9c9",
+          "message": "Merge pull request #417 from candy-lang/lsp-rename\n\nSupport renaming identifiers",
+          "timestamp": "2023-04-27T12:36:02+02:00",
+          "tree_id": "6b56f78aad32b052d92cd99f0c3c319ab3e06559",
+          "url": "https://github.com/candy-lang/candy/commit/d90f9301de7e2850a13505d3fea49311872aa9c9"
+        },
+        "date": 1682592056487,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 1672952,
+            "range": "± 7934",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 690312857,
+            "range": "± 4287492",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 73632,
+            "range": "± 2453",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 216790240,
+            "range": "± 3331572",
             "unit": "ns/iter"
           }
         ]
