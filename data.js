@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683364789817,
+  "lastUpdate": 1683377872086,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5579,6 +5579,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 159670304,
             "range": "± 3994863",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8d3d4d7165032ae33537db958ed2aedf63e3567",
+          "message": "Merge pull request #431 from candy-lang/use-function-consistently\n\nRename lambda and closure to function",
+          "timestamp": "2023-05-06T14:46:33+02:00",
+          "tree_id": "2337e01daea13267afbe6036fe4025be95aa7b7a",
+          "url": "https://github.com/candy-lang/candy/commit/c8d3d4d7165032ae33537db958ed2aedf63e3567"
+        },
+        "date": 1683377871492,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 26211346,
+            "range": "± 782783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 253889307,
+            "range": "± 6609862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 2021803,
+            "range": "± 1113079",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 168481977,
+            "range": "± 5406716",
             "unit": "ns/iter"
           }
         ]
