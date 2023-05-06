@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683233370422,
+  "lastUpdate": 1683364789817,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5531,6 +5531,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 162774712,
             "range": "± 796127",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cfa863a1c016cc26df6f47a7656c85ddd4fe368",
+          "message": "Merge pull request #430 from candy-lang/require-compile-time-use\n\nApply more suggestions",
+          "timestamp": "2023-05-06T11:07:55+02:00",
+          "tree_id": "0ed7a354a8fc8e82003853f04a32372fac6bfb64",
+          "url": "https://github.com/candy-lang/candy/commit/5cfa863a1c016cc26df6f47a7656c85ddd4fe368"
+        },
+        "date": 1683364789572,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23640472,
+            "range": "± 437636",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 237650402,
+            "range": "± 1607249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 983185,
+            "range": "± 919190",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 159670304,
+            "range": "± 3994863",
             "unit": "ns/iter"
           }
         ]
