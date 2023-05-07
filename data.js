@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683377872086,
+  "lastUpdate": 1683483813661,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5627,6 +5627,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 168481977,
             "range": "± 5406716",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b9399603d6f9c4bf9e3b203cd0a21d649dec28a",
+          "message": "Merge pull request #432 from candy-lang/save-origin-in-lir\n\nAdd helloworld example and save origins in LIR",
+          "timestamp": "2023-05-07T20:09:13+02:00",
+          "tree_id": "5916f83f284e3be006ed54243aa5ce4b78a9f091",
+          "url": "https://github.com/candy-lang/candy/commit/6b9399603d6f9c4bf9e3b203cd0a21d649dec28a"
+        },
+        "date": 1683483813018,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 28431557,
+            "range": "± 633185",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 289094226,
+            "range": "± 1541687",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 1405957,
+            "range": "± 923905",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 189596478,
+            "range": "± 1182234",
             "unit": "ns/iter"
           }
         ]
