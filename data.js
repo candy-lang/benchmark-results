@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683552724236,
+  "lastUpdate": 1683581410454,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -5771,6 +5771,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 160781654,
             "range": "± 559463",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5cca67569d1564a6fcdb575fcd9cbd386c7a05c",
+          "message": "Merge pull request #433 from candy-lang/improve-mir-to-lir\n\nImprove MIR to LIR lowering",
+          "timestamp": "2023-05-08T23:17:40+02:00",
+          "tree_id": "1eafe44b9584c12fc7c6eb345d4751340dc9e700",
+          "url": "https://github.com/candy-lang/candy/commit/c5cca67569d1564a6fcdb575fcd9cbd386c7a05c"
+        },
+        "date": 1683581409819,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24616736,
+            "range": "± 383514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 278193629,
+            "range": "± 2592946",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 67501,
+            "range": "± 4342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 239544660,
+            "range": "± 1296073",
             "unit": "ns/iter"
           }
         ]
