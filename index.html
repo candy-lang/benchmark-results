@@ -232,12 +232,12 @@
                   }
                 }
               },
-              onClick: (_mouseEvent, activeElems) => {
-                if (activeElems.length === 0) {
+              onClick: (_mouseEvent, activeElements) => {
+                if (activeElements.length === 0) {
                   return;
                 }
-                // XXX: Undocumented. How can we know the index?
-                const index = activeElems[0]._index;
+
+                const index = activeElements[0].index;
                 const url = dataset[index].commit.url;
                 window.open(url, '_blank');
               },
