@@ -246,11 +246,12 @@
                   limits: {
                     y: {min: 'original', max: 'original'},
                   },
-                  pan: {enabled: true},
+                  pan: {enabled: true, mode: 'y', modifierKey: 'shift'},
                   zoom: {
                     mode: 'y',
+                    drag: {enabled: true},
                     pinch: {enabled: true},
-                    wheel: {enabled: true},
+                    wheel: {enabled: true, modifierKey: 'ctrl'},
                   },
                 },
               },
