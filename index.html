@@ -105,6 +105,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
     <script src="data.js"></script>
     <script id="main-script">
       'use strict';
@@ -239,6 +240,19 @@
                 const index = activeElems[0]._index;
                 const url = dataset[index].commit.url;
                 window.open(url, '_blank');
+              },
+              plugins: {
+                zoom: {
+                  limits: {
+                    y: {min: 'original', max: 'original'},
+                  },
+                  pan: {enabled: true},
+                  zoom: {
+                    mode: 'y',
+                    pinch: {enabled: true},
+                    wheel: {enabled: true},
+                  },
+                },
               },
             };
 
