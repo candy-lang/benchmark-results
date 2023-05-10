@@ -79,8 +79,9 @@
         flex-wrap: wrap;
         width: 100%;
       }
-      .benchmark-chart {
-        max-width: 1000px;
+      .benchmark-chart-container {
+        width: 100%;
+        height: 384px;
       }
     </style>
     <title>Benchmarks</title>
@@ -172,9 +173,11 @@
         function renderAllChars(dataSets) {
 
           function renderGraph(parent, name, dataset) {
+            const div = document.createElement('div');
+            div.className = 'benchmark-chart-container';
+            parent.appendChild(div);
             const canvas = document.createElement('canvas');
-            canvas.className = 'benchmark-chart';
-            parent.appendChild(canvas);
+            div.appendChild(canvas);
 
             const color = toolColors[dataset.length > 0 ? dataset[0].tool : '_'];
             const translucentColor = color + '60'; // Add alpha for #rrggbbaa
@@ -195,6 +198,7 @@
               ],
             };
             const options = {
+              maintainAspectRatio: false,
               scales: {
                 x: {
                   title: {
