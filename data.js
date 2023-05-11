@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683768952025,
+  "lastUpdate": 1683792775340,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -6059,6 +6059,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 208407676,
             "range": "± 1400845",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f647b7edf6aaaa5b4426e2832b50f1c95517c5a",
+          "message": "Merge pull request #440 from candy-lang/reuse-fiber-heap-for-tracer\n\nReuse fiber heap for tracer",
+          "timestamp": "2023-05-11T10:00:31+02:00",
+          "tree_id": "f34d2618b49a914507f93b574b6eefeec5560b53",
+          "url": "https://github.com/candy-lang/candy/commit/3f647b7edf6aaaa5b4426e2832b50f1c95517c5a"
+        },
+        "date": 1683792774779,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25653420,
+            "range": "± 795618",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 271383586,
+            "range": "± 5670884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 70002,
+            "range": "± 21708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 235431031,
+            "range": "± 9347296",
             "unit": "ns/iter"
           }
         ]
