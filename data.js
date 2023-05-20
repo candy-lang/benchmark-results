@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684460353879,
+  "lastUpdate": 1684579742037,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -6683,6 +6683,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 262041649,
             "range": "± 7548999",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0377b97ea991b9a227e69c8e2816f843b2f88e4b",
+          "message": "Merge pull request #444 from candy-lang/fix-fuzzer\n\nFix fuzzer segmentation fault",
+          "timestamp": "2023-05-20T12:34:45+02:00",
+          "tree_id": "86fcd53fc0de5ab3667a4feecb19911d4292d77f",
+          "url": "https://github.com/candy-lang/candy/commit/0377b97ea991b9a227e69c8e2816f843b2f88e4b"
+        },
+        "date": 1684579741491,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25045683,
+            "range": "± 477512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 280413356,
+            "range": "± 1424894",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 69051,
+            "range": "± 16819",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 256491790,
+            "range": "± 2152918",
             "unit": "ns/iter"
           }
         ]
