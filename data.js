@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684579742037,
+  "lastUpdate": 1684664913990,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -6731,6 +6731,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 256491790,
             "range": "± 2152918",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25a3707ff7302f46af39ba65e6891f6d24296d63",
+          "message": "Merge pull request #447 from candy-lang/restructure-optimizations\n\nRestructure optimizations",
+          "timestamp": "2023-05-21T12:22:52+02:00",
+          "tree_id": "8875caba6ad9d8558ef3180943fbbdda86c0c01a",
+          "url": "https://github.com/candy-lang/candy/commit/25a3707ff7302f46af39ba65e6891f6d24296d63"
+        },
+        "date": 1684664913710,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21049009,
+            "range": "± 469949",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 146072248,
+            "range": "± 1059388",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 59301,
+            "range": "± 17956",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 283080242,
+            "range": "± 3405386",
             "unit": "ns/iter"
           }
         ]
