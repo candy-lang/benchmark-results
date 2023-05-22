@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684720486963,
+  "lastUpdate": 1684720769199,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -6923,6 +6923,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 301374974,
             "range": "± 12282171",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0c55635e981f4f34b815ca226d6f7146424e055",
+          "message": "Merge pull request #462 from candy-lang/dependabot/npm_and_yarn/vscode_extension/glob-10.2.6\n\nBump glob from 10.2.5 to 10.2.6 in /vscode_extension",
+          "timestamp": "2023-05-22T03:55:11+02:00",
+          "tree_id": "1acc13399e7bf8a3ecf2b9f509187552e06aa396",
+          "url": "https://github.com/candy-lang/candy/commit/c0c55635e981f4f34b815ca226d6f7146424e055"
+        },
+        "date": 1684720768920,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18043256,
+            "range": "± 463073",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 142655065,
+            "range": "± 817174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 60400,
+            "range": "± 3587",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 265268272,
+            "range": "± 3923838",
             "unit": "ns/iter"
           }
         ]
