@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684805157079,
+  "lastUpdate": 1684977378267,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7115,6 +7115,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 280103673,
             "range": "± 2682857",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97d40fea31d8f88250cfe5bb71cab54e310ed26c",
+          "message": "Merge pull request #470 from candy-lang/dependabot/github_actions/dependabot/fetch-metadata-1.5.1\n\nBump dependabot/fetch-metadata from 1.5.0 to 1.5.1",
+          "timestamp": "2023-05-25T03:09:35+02:00",
+          "tree_id": "113adfdb447dad557f9db369fa1e08384dade0c3",
+          "url": "https://github.com/candy-lang/candy/commit/97d40fea31d8f88250cfe5bb71cab54e310ed26c"
+        },
+        "date": 1684977377693,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23168038,
+            "range": "± 1318679",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 171580941,
+            "range": "± 7496474",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 62953,
+            "range": "± 18120",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 305861166,
+            "range": "± 6802469",
             "unit": "ns/iter"
           }
         ]
