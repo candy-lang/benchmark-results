@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685409411507,
+  "lastUpdate": 1685409739714,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7355,6 +7355,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 276206191,
             "range": "± 2635987",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "684c0227bce62126c5b89c60436fa82446a28af1",
+          "message": "Merge pull request #477 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-eslint/eslint-plugin-5.59.8\n\nBump @typescript-eslint/eslint-plugin from 5.59.7 to 5.59.8 in /vscode_extension",
+          "timestamp": "2023-05-30T03:17:56+02:00",
+          "tree_id": "6a526f67c013f13fcec20dcc4d92620d567aa342",
+          "url": "https://github.com/candy-lang/candy/commit/684c0227bce62126c5b89c60436fa82446a28af1"
+        },
+        "date": 1685409739174,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21448641,
+            "range": "± 350590",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 146243769,
+            "range": "± 745202",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 63600,
+            "range": "± 3428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 275651937,
+            "range": "± 2990670",
             "unit": "ns/iter"
           }
         ]
