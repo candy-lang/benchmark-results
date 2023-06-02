@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685721309305,
+  "lastUpdate": 1685741016438,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7499,6 +7499,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 263820677,
             "range": "± 18810127",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9db142191231050d5830166b9f431b3cf638583f",
+          "message": "Merge pull request #464 from candy-lang/support-match-of-tag-with-value\n\nSupport match of tag with value",
+          "timestamp": "2023-06-02T23:19:02+02:00",
+          "tree_id": "e12ef08a04077e4ae303105e7c28b765192dd4ed",
+          "url": "https://github.com/candy-lang/candy/commit/9db142191231050d5830166b9f431b3cf638583f"
+        },
+        "date": 1685741015911,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18639641,
+            "range": "± 235600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 142339116,
+            "range": "± 415387",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 63449,
+            "range": "± 2877",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 265686899,
+            "range": "± 4125493",
             "unit": "ns/iter"
           }
         ]
