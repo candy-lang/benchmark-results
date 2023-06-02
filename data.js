@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685668887565,
+  "lastUpdate": 1685721309305,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7451,6 +7451,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 278572268,
             "range": "± 3231713",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3063e9b6df75fb28f635b5c807802b033d840679",
+          "message": "Merge pull request #463 from candy-lang/coverage-guided-fuzzing\n\nAdd coverage-guided fuzzing",
+          "timestamp": "2023-06-02T17:50:49+02:00",
+          "tree_id": "0e2cd1cccdffa430bad34dd9f8803df533e2de38",
+          "url": "https://github.com/candy-lang/candy/commit/3063e9b6df75fb28f635b5c807802b033d840679"
+        },
+        "date": 1685721308752,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16837969,
+            "range": "± 2790415",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 137329910,
+            "range": "± 5864732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 47750,
+            "range": "± 14006",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 263820677,
+            "range": "± 18810127",
             "unit": "ns/iter"
           }
         ]
