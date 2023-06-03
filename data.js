@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685808703823,
+  "lastUpdate": 1685831571552,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7595,6 +7595,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 333700110,
             "range": "± 2210471",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ed94825babb33fb0433d4aa8e8baf472c9b9b23",
+          "message": "Merge pull request #483 from candy-lang/478-remove-combiningexecutioncontroller-in-favor-of-impl-executioncontroller-for-tuples\n\nImpl `ExecutionController` and `Tracer` for tuples",
+          "timestamp": "2023-06-04T00:26:52+02:00",
+          "tree_id": "798f29d5bd2c9e65369aceb60e8eaf1f06c48946",
+          "url": "https://github.com/candy-lang/candy/commit/0ed94825babb33fb0433d4aa8e8baf472c9b9b23"
+        },
+        "date": 1685831570932,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24764933,
+            "range": "± 626607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 172457862,
+            "range": "± 1422817",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 71352,
+            "range": "± 4857",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 339591794,
+            "range": "± 2970535",
             "unit": "ns/iter"
           }
         ]
