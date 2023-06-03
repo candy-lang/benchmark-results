@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685741016438,
+  "lastUpdate": 1685808703823,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7547,6 +7547,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 265686899,
             "range": "± 4125493",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bc17a938a0ac3a3e053bfb96afbd48b89e625e7",
+          "message": "Merge pull request #480 from candy-lang/fix-hints\n\nFix fuzzing hints",
+          "timestamp": "2023-06-03T18:04:44+02:00",
+          "tree_id": "c4e14688ffd28256880eaee0372c64fe2e6ad3d2",
+          "url": "https://github.com/candy-lang/candy/commit/5bc17a938a0ac3a3e053bfb96afbd48b89e625e7"
+        },
+        "date": 1685808703198,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 25165878,
+            "range": "± 720022",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 173370107,
+            "range": "± 968152",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 74801,
+            "range": "± 3192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 333700110,
+            "range": "± 2210471",
             "unit": "ns/iter"
           }
         ]
