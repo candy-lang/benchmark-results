@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685894425434,
+  "lastUpdate": 1685894964192,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7691,6 +7691,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 267426365,
             "range": "± 2661371",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b637fd34e51c4b1f07303af3e6111d0ff1099f52",
+          "message": "Merge pull request #474 from candy-lang/dependabot/cargo/compiler/vm/criterion-0.5.1\n\nUpdate criterion requirement from 0.4.0 to 0.5.1 in /compiler/vm",
+          "timestamp": "2023-06-04T18:03:53+02:00",
+          "tree_id": "eb8f7a58fa9266d4d7ab4d5f73e2799ff8302116",
+          "url": "https://github.com/candy-lang/candy/commit/b637fd34e51c4b1f07303af3e6111d0ff1099f52"
+        },
+        "date": 1685894963831,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23167411,
+            "range": "± 601335",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 148007687,
+            "range": "± 901630",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 64500,
+            "range": "± 4407",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 282173007,
+            "range": "± 4136804",
             "unit": "ns/iter"
           }
         ]
