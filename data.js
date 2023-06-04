@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685831571552,
+  "lastUpdate": 1685894425434,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7643,6 +7643,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 339591794,
             "range": "± 2970535",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b27799e0ddf22113ba3eeca8ffbc0d7b4f8a3730",
+          "message": "Merge pull request #487 from candy-lang/484-formatter-makes-pattern-match-invalid\n\nFix indentation of single match inside assignment",
+          "timestamp": "2023-06-04T17:54:22+02:00",
+          "tree_id": "40eef62a4da896ff10baddc625013baf20859932",
+          "url": "https://github.com/candy-lang/candy/commit/b27799e0ddf22113ba3eeca8ffbc0d7b4f8a3730"
+        },
+        "date": 1685894425039,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19027180,
+            "range": "± 326903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 144248062,
+            "range": "± 748409",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 65500,
+            "range": "± 6974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 267426365,
+            "range": "± 2661371",
             "unit": "ns/iter"
           }
         ]
