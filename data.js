@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685894964192,
+  "lastUpdate": 1685929883475,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7739,6 +7739,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 282173007,
             "range": "± 4136804",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4fc7e0f25fa061e9a35343216bc10eb2149818f0",
+          "message": "Merge pull request #489 from candy-lang/dependabot/npm_and_yarn/vscode_extension/eslint-8.42.0\n\nBump eslint from 8.41.0 to 8.42.0 in /vscode_extension",
+          "timestamp": "2023-06-05T03:45:14+02:00",
+          "tree_id": "ffd86b2c02cdb15748f730009a5792df5e3ea7fe",
+          "url": "https://github.com/candy-lang/candy/commit/4fc7e0f25fa061e9a35343216bc10eb2149818f0"
+        },
+        "date": 1685929882960,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19559191,
+            "range": "± 899501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 139677558,
+            "range": "± 864915",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 57751,
+            "range": "± 3905",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 281145448,
+            "range": "± 2943789",
             "unit": "ns/iter"
           }
         ]
