@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685988947665,
+  "lastUpdate": 1685989263360,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7883,6 +7883,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 319032683,
             "range": "± 3889444",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a5853921ec201d23b44c9ca0a1526f60c55f96e",
+          "message": "Merge pull request #496 from candy-lang/490-format-body-with-single-assignment-correctly\n\nFormat body with single assignment correctly",
+          "timestamp": "2023-06-05T20:16:07+02:00",
+          "tree_id": "e36092f20b1922922f693357fb6921a15bc4de3b",
+          "url": "https://github.com/candy-lang/candy/commit/7a5853921ec201d23b44c9ca0a1526f60c55f96e"
+        },
+        "date": 1685989262958,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22550037,
+            "range": "± 413830",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 149277911,
+            "range": "± 779977",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 68901,
+            "range": "± 2893",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 280051469,
+            "range": "± 1525233",
             "unit": "ns/iter"
           }
         ]
