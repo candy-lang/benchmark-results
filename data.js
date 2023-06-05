@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685929883475,
+  "lastUpdate": 1685967444435,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7787,6 +7787,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 281145448,
             "range": "± 2943789",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2460a15fda3bb1c59cb2cabaf316a6b9fe03e9e9",
+          "message": "Merge pull request #488 from candy-lang/fix-pipe-evaluation-order\n\nFix pipe evaluation order",
+          "timestamp": "2023-06-05T14:12:36+02:00",
+          "tree_id": "2db5d37561b00e3704463b2d0b27a5a37b2d33c1",
+          "url": "https://github.com/candy-lang/candy/commit/2460a15fda3bb1c59cb2cabaf316a6b9fe03e9e9"
+        },
+        "date": 1685967444142,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22109618,
+            "range": "± 431449",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 146614379,
+            "range": "± 685446",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 66550,
+            "range": "± 7821",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 282728549,
+            "range": "± 2336867",
             "unit": "ns/iter"
           }
         ]
