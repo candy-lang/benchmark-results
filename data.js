@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685967444435,
+  "lastUpdate": 1685988947665,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7835,6 +7835,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 282728549,
             "range": "± 2336867",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94194364604565ba4ec0b4c8806d814dc5205aa7",
+          "message": "Merge pull request #498 from candy-lang/impl-display-via-rich-ir\n\nImpl Display via ToRichIr",
+          "timestamp": "2023-06-05T20:10:20+02:00",
+          "tree_id": "c7f749bd4cbd7fac4f040f202568300123d326c0",
+          "url": "https://github.com/candy-lang/candy/commit/94194364604565ba4ec0b4c8806d814dc5205aa7"
+        },
+        "date": 1685988947020,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24317389,
+            "range": "± 627516",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 164474917,
+            "range": "± 3705414",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 69404,
+            "range": "± 15447",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 319032683,
+            "range": "± 3889444",
             "unit": "ns/iter"
           }
         ]
