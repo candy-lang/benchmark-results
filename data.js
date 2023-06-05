@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685990406664,
+  "lastUpdate": 1685990466103,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -7985,6 +7985,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1860156380,
             "range": "± 7082762",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1205f7da4c854185d5419e1c85ad2a782cc70da",
+          "message": "Merge pull request #497 from candy-lang/492-fix-superfluous-empty-line-in-formatted-method\n\nAvoid superfluous leading empty line in body",
+          "timestamp": "2023-06-05T20:37:18+02:00",
+          "tree_id": "ecb1e1f983643553c84fd2a15858c36d2032c15b",
+          "url": "https://github.com/candy-lang/candy/commit/f1205f7da4c854185d5419e1c85ad2a782cc70da"
+        },
+        "date": 1685990465779,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23177539,
+            "range": "± 688824",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 155868404,
+            "range": "± 1860070",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 70401,
+            "range": "± 4363",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 278854428,
+            "range": "± 3350194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1932060305,
+            "range": "± 10064239",
             "unit": "ns/iter"
           }
         ]
