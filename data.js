@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686217999721,
+  "lastUpdate": 1686218882806,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -8471,6 +8471,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1717628093,
             "range": "± 7884959",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90c02cda38f97e37b93812885d105f4588ee1a3f",
+          "message": "Merge pull request #479 from candy-lang/show-fuzzing-errors-as-diagnostics\n\nShow fuzzing errors as diagnostics",
+          "timestamp": "2023-06-08T12:04:22+02:00",
+          "tree_id": "33d02d4ee0bce710d9be9cb7329e1a43171d8428",
+          "url": "https://github.com/candy-lang/candy/commit/90c02cda38f97e37b93812885d105f4588ee1a3f"
+        },
+        "date": 1686218882451,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16433762,
+            "range": "± 353608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 157243463,
+            "range": "± 812213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 59250,
+            "range": "± 4313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 243082572,
+            "range": "± 1081117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1705976418,
+            "range": "± 4559232",
             "unit": "ns/iter"
           }
         ]
