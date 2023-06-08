@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686154525579,
+  "lastUpdate": 1686213259187,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -8309,6 +8309,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1834805657,
             "range": "± 5682333",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7079763ce5ec50cd7383cfa125a6325b03c1d1dd",
+          "message": "Merge pull request #503 from candy-lang/395-support-tag-values-in-fuzzer\n\nSupport tag values in fuzzer",
+          "timestamp": "2023-06-08T10:28:58+02:00",
+          "tree_id": "35635f51a891460aad1346c978473520824e69c3",
+          "url": "https://github.com/candy-lang/candy/commit/7079763ce5ec50cd7383cfa125a6325b03c1d1dd"
+        },
+        "date": 1686213258746,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23559147,
+            "range": "± 512378",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 155993969,
+            "range": "± 1027769",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 72051,
+            "range": "± 3400",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 277418949,
+            "range": "± 2406536",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1920668391,
+            "range": "± 5823399",
             "unit": "ns/iter"
           }
         ]
