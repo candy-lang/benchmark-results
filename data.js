@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686651534219,
+  "lastUpdate": 1686653017861,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -8933,6 +8933,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 84402,
             "range": "± 3707",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76c182440c9e08a6a317a107778b6752e3279bbf",
+          "message": "Merge pull request #518 from candy-lang/more-constant-folding\n\nMore constant folding",
+          "timestamp": "2023-06-13T12:34:38+02:00",
+          "tree_id": "543f766a50cbc5f4cdd3a3e5a4b0e1c526a5ba08",
+          "url": "https://github.com/candy-lang/candy/commit/76c182440c9e08a6a317a107778b6752e3279bbf"
+        },
+        "date": 1686653017483,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 33351032,
+            "range": "± 674996",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 248133032,
+            "range": "± 2398203",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 78601,
+            "range": "± 4685",
             "unit": "ns/iter"
           }
         ]
