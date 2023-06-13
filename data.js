@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686619007441,
+  "lastUpdate": 1686651455093,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -8849,6 +8849,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1726872817,
             "range": "± 6890390",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4336655058f5530862dd93bb88a3650547ebb04a",
+          "message": "Merge pull request #513 from candy-lang/move-builtins-to-separate-package\n\nMove builtins to separate package",
+          "timestamp": "2023-06-13T12:07:03+02:00",
+          "tree_id": "febf9a2c383c653baf6725ce6fd4838dbbb1b3a3",
+          "url": "https://github.com/candy-lang/candy/commit/4336655058f5530862dd93bb88a3650547ebb04a"
+        },
+        "date": 1686651454689,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 34831421,
+            "range": "± 1564233",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 288671133,
+            "range": "± 10906131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 71900,
+            "range": "± 21469",
             "unit": "ns/iter"
           }
         ]
