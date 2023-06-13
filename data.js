@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686651455093,
+  "lastUpdate": 1686651534219,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -8891,6 +8891,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 71900,
             "range": "± 21469",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0716a75a1a7166f22cc1de57366a754d9badd576",
+          "message": "Merge pull request #517 from candy-lang/more-static-errors\n\nDiscover static panics",
+          "timestamp": "2023-06-13T12:09:10+02:00",
+          "tree_id": "13f574cb64f05ac4b7704c3ea989efb26e575183",
+          "url": "https://github.com/candy-lang/candy/commit/0716a75a1a7166f22cc1de57366a754d9badd576"
+        },
+        "date": 1686651533613,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 36406891,
+            "range": "± 1080836",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 261208140,
+            "range": "± 4682817",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 84402,
+            "range": "± 3707",
             "unit": "ns/iter"
           }
         ]
