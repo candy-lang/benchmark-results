@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687223981413,
+  "lastUpdate": 1687241596684,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -9287,6 +9287,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 5091769468,
             "range": "± 14093876",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d24376f29ed58a212c43265560c1cca87660bc4e",
+          "message": "Merge pull request #533 from candy-lang/dependabot/github_actions/dtolnay/rust-toolchain-1f5cdb56c8779e3efa22473ce181ff83143b172c\n\nBump dtolnay/rust-toolchain from b44cb146d03e8d870c57ab64b80f04586349ca5d to 1f5cdb56c8779e3efa22473ce181ff83143b172c",
+          "timestamp": "2023-06-20T08:05:17+02:00",
+          "tree_id": "e01a4bd04476e887391d25e2a4be9683d05a50d6",
+          "url": "https://github.com/candy-lang/candy/commit/d24376f29ed58a212c43265560c1cca87660bc4e"
+        },
+        "date": 1687241596270,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 24965121,
+            "range": "± 2272111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 233897083,
+            "range": "± 11182974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 67800,
+            "range": "± 41769",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 1315376520,
+            "range": "± 31740385",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 6372493152,
+            "range": "± 113035562",
             "unit": "ns/iter"
           }
         ]
