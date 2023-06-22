@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687396830306,
+  "lastUpdate": 1687465626933,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -9395,6 +9395,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 4627442226,
             "range": "± 60762111",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7007855968ea692735a61d096ed155086097d41e",
+          "message": "Merge pull request #524 from candy-lang/current-expression-for-mir-optimizations\n\nAdd `Context` and `CurrentExpression` for MIR optimizations",
+          "timestamp": "2023-06-22T22:21:15+02:00",
+          "tree_id": "27185e7ad4c3a503e5c7a89b1d9321a549727107",
+          "url": "https://github.com/candy-lang/candy/commit/7007855968ea692735a61d096ed155086097d41e"
+        },
+        "date": 1687465626165,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17947220,
+            "range": "± 407533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 169899366,
+            "range": "± 1147804",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 63500,
+            "range": "± 50407",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 941998804,
+            "range": "± 2596142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 4554448931,
+            "range": "± 27085026",
             "unit": "ns/iter"
           }
         ]
