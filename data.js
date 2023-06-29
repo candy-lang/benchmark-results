@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687915564859,
+  "lastUpdate": 1687998275719,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -9881,6 +9881,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 5329247905,
             "range": "± 161296079",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "053493f986461e62e5caf53d5cfc447a258c02b2",
+          "message": "Merge pull request #552 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-5.1.6\n\nBump typescript from 5.1.5 to 5.1.6 in /vscode_extension",
+          "timestamp": "2023-06-29T02:18:39+02:00",
+          "tree_id": "2eb48c429f8c3965a998d19df7fd57bb03766f15",
+          "url": "https://github.com/candy-lang/candy/commit/053493f986461e62e5caf53d5cfc447a258c02b2"
+        },
+        "date": 1687998275360,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21750037,
+            "range": "± 468826",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 183339697,
+            "range": "± 2442900",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 64051,
+            "range": "± 5773",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 986404917,
+            "range": "± 3109764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 4769903850,
+            "range": "± 9361524",
             "unit": "ns/iter"
           }
         ]
