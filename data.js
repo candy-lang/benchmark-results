@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688034969748,
+  "lastUpdate": 1688084300789,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -10043,6 +10043,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 5569379616,
             "range": "± 229881085",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e6d696fd9c768819b6b9675e266a934a3572bd57",
+          "message": "Merge pull request #554 from candy-lang/dependabot/github_actions/actions/labeler-4.2.0\n\nBump actions/labeler from 4.1.0 to 4.2.0",
+          "timestamp": "2023-06-30T02:12:33+02:00",
+          "tree_id": "286afa81308a0dc622c36ba60e719d699176a520",
+          "url": "https://github.com/candy-lang/candy/commit/e6d696fd9c768819b6b9675e266a934a3572bd57"
+        },
+        "date": 1688084300237,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17718630,
+            "range": "± 286608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 170905298,
+            "range": "± 1232634",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 62900,
+            "range": "± 48523",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 938897526,
+            "range": "± 6120478",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 4498387107,
+            "range": "± 30456955",
             "unit": "ns/iter"
           }
         ]
