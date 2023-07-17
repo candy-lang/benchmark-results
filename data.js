@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689409938168,
+  "lastUpdate": 1689602419134,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -10961,6 +10961,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 2424239930,
             "range": "± 8095602",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ba7d6462e4270fcf84244bd8288fdd9d1df23f3",
+          "message": "Merge pull request #575 from candy-lang/fix-directory-name-clashes-on-windows\n\nRename core to olderCore",
+          "timestamp": "2023-07-17T15:54:05+02:00",
+          "tree_id": "b32b77113493becaf62eeb59ccb614928463c7c4",
+          "url": "https://github.com/candy-lang/candy/commit/7ba7d6462e4270fcf84244bd8288fdd9d1df23f3"
+        },
+        "date": 1689602418547,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 15269510,
+            "range": "± 383347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 150355598,
+            "range": "± 657043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 56100,
+            "range": "± 2572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 502141201,
+            "range": "± 4128108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 2247895895,
+            "range": "± 10080122",
             "unit": "ns/iter"
           }
         ]
