@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689640297091,
+  "lastUpdate": 1690019582512,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -11069,6 +11069,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 2268318545,
             "range": "± 25181701",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9dbf0b1ea523576c40297ff1befcc5f6c239a3c",
+          "message": "Merge pull request #573 from candy-lang/change-assign-author-action\n\nChange assign author action",
+          "timestamp": "2023-07-22T11:45:38+02:00",
+          "tree_id": "333e8556998334cdc7f1df2d7f3f30164c289a92",
+          "url": "https://github.com/candy-lang/candy/commit/b9dbf0b1ea523576c40297ff1befcc5f6c239a3c"
+        },
+        "date": 1690019581795,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21681934,
+            "range": "± 426146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 190484822,
+            "range": "± 1787102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 70504,
+            "range": "± 4137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 638376214,
+            "range": "± 2203125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 2903001276,
+            "range": "± 17066022",
             "unit": "ns/iter"
           }
         ]
