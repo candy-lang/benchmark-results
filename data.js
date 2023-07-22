@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690020012786,
+  "lastUpdate": 1690060523503,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -11177,6 +11177,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 2439194356,
             "range": "± 7484941",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a2b78372f0526153d326027415478504b04d77f",
+          "message": "Merge pull request #581 from candy-lang/add-rust-toolchain-toml\n\nAdd rust-toolchain.toml",
+          "timestamp": "2023-07-22T23:08:15+02:00",
+          "tree_id": "7ca4bedb3fc68383bd225bb7de85177fa67feaf9",
+          "url": "https://github.com/candy-lang/candy/commit/0a2b78372f0526153d326027415478504b04d77f"
+        },
+        "date": 1690060522785,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21015140,
+            "range": "± 445178",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 181520605,
+            "range": "± 3929130",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 61751,
+            "range": "± 3534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 617741024,
+            "range": "± 5081448",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 2828367988,
+            "range": "± 28067721",
             "unit": "ns/iter"
           }
         ]
