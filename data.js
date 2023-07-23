@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690107281210,
+  "lastUpdate": 1690107958393,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -11285,6 +11285,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 2487446670,
             "range": "± 10209576",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97c7f9bddece5b2a8a8bc5b292a9b86c7ac12e45",
+          "message": "Merge pull request #584 from candy-lang/avoid-cloning-instructions\n\nAvoid cloning instructions",
+          "timestamp": "2023-07-23T12:20:56+02:00",
+          "tree_id": "1419c6c8767f485e555a83b3f44096f321d2c673",
+          "url": "https://github.com/candy-lang/candy/commit/97c7f9bddece5b2a8a8bc5b292a9b86c7ac12e45"
+        },
+        "date": 1690107957611,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22021853,
+            "range": "± 523376",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 166949210,
+            "range": "± 1382723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 68703,
+            "range": "± 41175",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 494167458,
+            "range": "± 2123797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 2258841087,
+            "range": "± 17504194",
             "unit": "ns/iter"
           }
         ]
