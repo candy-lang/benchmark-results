@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691659071042,
+  "lastUpdate": 1691659228478,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -12581,6 +12581,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1441353883,
             "range": "± 37543723",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63eb5935bcb3e788a29e9b096a442f615f07e9b0",
+          "message": "Merge pull request #604 from candy-lang/295-support-destructuring-in-lamdba-parameters\n\nSupport destructuring in lamdba parameters",
+          "timestamp": "2023-08-10T11:15:11+02:00",
+          "tree_id": "9cd032973e6be8637c561b0eed2fa542fa026c26",
+          "url": "https://github.com/candy-lang/candy/commit/63eb5935bcb3e788a29e9b096a442f615f07e9b0"
+        },
+        "date": 1691659227996,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17054591,
+            "range": "± 236189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 161949535,
+            "range": "± 608584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 52900,
+            "range": "± 2838",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 266778042,
+            "range": "± 2195587",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1233355052,
+            "range": "± 4574989",
             "unit": "ns/iter"
           }
         ]
