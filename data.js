@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691661095649,
+  "lastUpdate": 1691667330531,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -12689,6 +12689,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1222193083,
             "range": "± 3927763",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2dc71e388c32818dce811b498529caf6fcdd778",
+          "message": "Merge pull request #611 from candy-lang/new-vm\n\nReplace channels and fibers with handles",
+          "timestamp": "2023-08-10T13:30:35+02:00",
+          "tree_id": "a03c39dd68a3b70a5cb39806bb7bafcc3f7db325",
+          "url": "https://github.com/candy-lang/candy/commit/e2dc71e388c32818dce811b498529caf6fcdd778"
+        },
+        "date": 1691667330111,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20322303,
+            "range": "± 365805",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 161120910,
+            "range": "± 1103501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 19500,
+            "range": "± 1088",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 557301868,
+            "range": "± 1094744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 2583860211,
+            "range": "± 4075038",
             "unit": "ns/iter"
           }
         ]
