@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691699185997,
+  "lastUpdate": 1691767970741,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -12959,6 +12959,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1400349558,
             "range": "± 59872934",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c12d463df3498e8c45fd431e5bb8995adbe5ba02",
+          "message": "Merge pull request #632 from candy-lang/fix-golden-ir-checkout-on-main\n\nFix golden IR checkout on main",
+          "timestamp": "2023-08-11T17:28:25+02:00",
+          "tree_id": "c7fefd2ccaaaf5f373007f7331812e62a4369b96",
+          "url": "https://github.com/candy-lang/candy/commit/c12d463df3498e8c45fd431e5bb8995adbe5ba02"
+        },
+        "date": 1691767970333,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18980517,
+            "range": "± 282376",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 156156353,
+            "range": "± 991069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 14850,
+            "range": "± 1296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 261117240,
+            "range": "± 603416",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1205540976,
+            "range": "± 2557873",
             "unit": "ns/iter"
           }
         ]
