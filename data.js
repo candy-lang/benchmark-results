@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691767970741,
+  "lastUpdate": 1691768761949,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13013,6 +13013,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1205540976,
             "range": "± 2557873",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c46062bd81ac5fa72e89038994558433a5fca70",
+          "message": "Merge pull request #631 from candy-lang/dependabot-labels\n\nSpecify label for Dependabot PRs",
+          "timestamp": "2023-08-11T17:41:46+02:00",
+          "tree_id": "14906079d2c25e08cc0feb5e7784f905777daa33",
+          "url": "https://github.com/candy-lang/candy/commit/0c46062bd81ac5fa72e89038994558433a5fca70"
+        },
+        "date": 1691768761529,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 19244585,
+            "range": "± 321777",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 157321374,
+            "range": "± 841266",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 16101,
+            "range": "± 1267",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 264544061,
+            "range": "± 1193361",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1218032827,
+            "range": "± 3506959",
             "unit": "ns/iter"
           }
         ]
