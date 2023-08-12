@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691769184917,
+  "lastUpdate": 1691835070633,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13121,6 +13121,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1422470513,
             "range": "± 10590144",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87feceabdf8822b1edc66d78e3403ac001698e7b",
+          "message": "Merge pull request #578 from candy-lang/inkwell-compiler\n\nLLVM-based Compiler",
+          "timestamp": "2023-08-12T12:07:02+02:00",
+          "tree_id": "eccafcafe407d7de940c5adc3d34ffed69260c99",
+          "url": "https://github.com/candy-lang/candy/commit/87feceabdf8822b1edc66d78e3403ac001698e7b"
+        },
+        "date": 1691835070192,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 15166490,
+            "range": "± 411194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 147364450,
+            "range": "± 1006587",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 12400,
+            "range": "± 1093",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 249857416,
+            "range": "± 3664141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1144502131,
+            "range": "± 2104515",
             "unit": "ns/iter"
           }
         ]
