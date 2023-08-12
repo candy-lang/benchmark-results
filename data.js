@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691855667397,
+  "lastUpdate": 1691855677352,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13337,6 +13337,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1440213440,
             "range": "± 5269463",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df18e4571b32bddb7c4c055e5086d097ec9fe8ee",
+          "message": "Merge pull request #646 from candy-lang/inkwell-tags-with-values\n\nSupport Tags with Values",
+          "timestamp": "2023-08-12T17:49:49+02:00",
+          "tree_id": "cf3e266590dfba6421f7bc73614107533caff3ea",
+          "url": "https://github.com/candy-lang/candy/commit/df18e4571b32bddb7c4c055e5086d097ec9fe8ee"
+        },
+        "date": 1691855676930,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22132668,
+            "range": "± 493312",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 187247695,
+            "range": "± 2576333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 18700,
+            "range": "± 2402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 305872067,
+            "range": "± 3360067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1407580628,
+            "range": "± 7826962",
             "unit": "ns/iter"
           }
         ]
