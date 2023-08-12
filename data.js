@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691852336972,
+  "lastUpdate": 1691855392302,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13229,6 +13229,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1455184060,
             "range": "± 6492281",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80cf82bbc06ec6bb57c95fd16ac6845e16bafe34",
+          "message": "Merge pull request #641 from candy-lang/inkwell-fix-multiple-mains\n\nHandle exports struct if multiple main functions exist",
+          "timestamp": "2023-08-12T17:45:47+02:00",
+          "tree_id": "f6e086f402dfb96718379d2b05c77550b6287f59",
+          "url": "https://github.com/candy-lang/candy/commit/80cf82bbc06ec6bb57c95fd16ac6845e16bafe34"
+        },
+        "date": 1691855391937,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 15639753,
+            "range": "± 251968",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 148265880,
+            "range": "± 799334",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 13150,
+            "range": "± 1270",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 251217308,
+            "range": "± 1167109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1149632675,
+            "range": "± 3822908",
             "unit": "ns/iter"
           }
         ]
