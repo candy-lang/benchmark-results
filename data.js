@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691975984250,
+  "lastUpdate": 1692031914076,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13499,6 +13499,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1454558775,
             "range": "± 2018632",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28258112a97bb8e4773674e22c3b1bafd8278d2f",
+          "message": "Merge pull request #654 from candy-lang/stricter-lints-in-formatter\n\nStricter lints in Formatter",
+          "timestamp": "2023-08-14T18:45:55+02:00",
+          "tree_id": "f985a3679a29b0120c68d936e345480e65e3aefe",
+          "url": "https://github.com/candy-lang/candy/commit/28258112a97bb8e4773674e22c3b1bafd8278d2f"
+        },
+        "date": 1692031913281,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 27364346,
+            "range": "± 1928744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 224087404,
+            "range": "± 9786546",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 23850,
+            "range": "± 10302",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 354030881,
+            "range": "± 10490356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1622082244,
+            "range": "± 20960009",
             "unit": "ns/iter"
           }
         ]
