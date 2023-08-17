@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692298443865,
+  "lastUpdate": 1692309101433,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -14039,6 +14039,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1622995523,
             "range": "± 21620676",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eff70bbb1bf95fd9983c94ad6068149a91dfc2b1",
+          "message": "Merge pull request #671 from candy-lang/arguments-in-environment\n\nArguments in environment",
+          "timestamp": "2023-08-17T23:47:11+02:00",
+          "tree_id": "f753a898d0140e6ce1ec6b9826ea3eddaf7d662c",
+          "url": "https://github.com/candy-lang/candy/commit/eff70bbb1bf95fd9983c94ad6068149a91dfc2b1"
+        },
+        "date": 1692309100992,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20659224,
+            "range": "± 566827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 158800614,
+            "range": "± 2243704",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 52900,
+            "range": "± 9974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 281112120,
+            "range": "± 1199136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1295217543,
+            "range": "± 2044509",
             "unit": "ns/iter"
           }
         ]
