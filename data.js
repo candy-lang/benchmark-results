@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692280649799,
+  "lastUpdate": 1692281257630,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13877,6 +13877,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1450830620,
             "range": "± 12883880",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9224db840fa604df86e172ac2b85f95ca893e566",
+          "message": "Merge pull request #658 from candy-lang/stricter-lints-in-fuzzer\n\nStricter lints in Fuzzer",
+          "timestamp": "2023-08-17T16:03:25+02:00",
+          "tree_id": "c301c51e9c37e418de0e09f24e592481a4db6536",
+          "url": "https://github.com/candy-lang/candy/commit/9224db840fa604df86e172ac2b85f95ca893e566"
+        },
+        "date": 1692281257112,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16440230,
+            "range": "± 435873",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 147287035,
+            "range": "± 1231964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 50600,
+            "range": "± 11302",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 253674360,
+            "range": "± 750759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1174406699,
+            "range": "± 7478383",
             "unit": "ns/iter"
           }
         ]
