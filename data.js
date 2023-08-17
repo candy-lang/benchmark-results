@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692279605184,
+  "lastUpdate": 1692280649799,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -13823,6 +13823,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1540217287,
             "range": "± 3846241",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "066facef9f1909c0d71ce484616756ae6a121213",
+          "message": "Merge pull request #657 from candy-lang/stricter-lints-in-vm\n\nStricter lints in VM",
+          "timestamp": "2023-08-17T15:52:30+02:00",
+          "tree_id": "58d0908f8f114cf555def8c868f7facd3c578f71",
+          "url": "https://github.com/candy-lang/candy/commit/066facef9f1909c0d71ce484616756ae6a121213"
+        },
+        "date": 1692280649083,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20422297,
+            "range": "± 1348749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 185746686,
+            "range": "± 2959576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 49402,
+            "range": "± 61242",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 316824020,
+            "range": "± 6289979",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1450830620,
+            "range": "± 12883880",
             "unit": "ns/iter"
           }
         ]
