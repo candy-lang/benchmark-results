@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692924718485,
+  "lastUpdate": 1692946314375,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -14633,6 +14633,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1300843923,
             "range": "± 2535158",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "623179d5cc63ebef606f83bc519463d6934e007c",
+          "message": "Merge pull request #683 from candy-lang/fewer-dup-drop-in-lir\n\nOptimized LIR with fewer dup/drops",
+          "timestamp": "2023-08-25T08:47:30+02:00",
+          "tree_id": "34d80872fd0f8e9c6c1ab46d048585e531c9f0a1",
+          "url": "https://github.com/candy-lang/candy/commit/623179d5cc63ebef606f83bc519463d6934e007c"
+        },
+        "date": 1692946313562,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 15258034,
+            "range": "± 1036374",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 143978334,
+            "range": "± 911446",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 45800,
+            "range": "± 7042",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 266379281,
+            "range": "± 1234908",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1210319853,
+            "range": "± 1896559",
             "unit": "ns/iter"
           }
         ]
