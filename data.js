@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693505038353,
+  "lastUpdate": 1693510293774,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -15065,6 +15065,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1208151044,
             "range": "± 2155158",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f55e233677720397d8f98d28fcaf25e87aba0260",
+          "message": "Merge pull request #700 from candy-lang/694-analyzer-crashes-while-adding-imports\n\nFix panic on unresolved use",
+          "timestamp": "2023-08-31T21:27:19+02:00",
+          "tree_id": "f5e7db7c94292a6e69234184a11df425dc142ca6",
+          "url": "https://github.com/candy-lang/candy/commit/f55e233677720397d8f98d28fcaf25e87aba0260"
+        },
+        "date": 1693510293275,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16581620,
+            "range": "± 245489",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 162527614,
+            "range": "± 825498",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 48250,
+            "range": "± 9051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 263732091,
+            "range": "± 2211185",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1221954287,
+            "range": "± 6821703",
             "unit": "ns/iter"
           }
         ]
