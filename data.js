@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693443889071,
+  "lastUpdate": 1693505038353,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -15011,6 +15011,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1344262578,
             "range": "± 6415485",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cc3b79ed432e94b4804218cb3895b1808704e42",
+          "message": "Merge pull request #695 from candy-lang/fix-language-configuration\n\nFix declarative VS Code indentation rules",
+          "timestamp": "2023-08-31T19:59:39+02:00",
+          "tree_id": "6afac5d49cbbb42d0424ed57dd68053dc405d513",
+          "url": "https://github.com/candy-lang/candy/commit/5cc3b79ed432e94b4804218cb3895b1808704e42"
+        },
+        "date": 1693505037417,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 15742884,
+            "range": "± 239332",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 160762784,
+            "range": "± 928041",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 46050,
+            "range": "± 7234",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 262338961,
+            "range": "± 1423842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1208151044,
+            "range": "± 2155158",
             "unit": "ns/iter"
           }
         ]
