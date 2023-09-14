@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694601781273,
+  "lastUpdate": 1694697117453,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -15659,6 +15659,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1637539028,
             "range": "± 39730465",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "536cdae8f5d66ecf0b822d8fb325fb731c8b3dbb",
+          "message": "Merge pull request #668 from candy-lang/document-builtins\n\nDocument built-ins",
+          "timestamp": "2023-09-14T15:07:20+02:00",
+          "tree_id": "ea27aaa3c12b4966c934cf573dc65a6b5479bfe8",
+          "url": "https://github.com/candy-lang/candy/commit/536cdae8f5d66ecf0b822d8fb325fb731c8b3dbb"
+        },
+        "date": 1694697116518,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23599594,
+            "range": "± 651239",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 175345948,
+            "range": "± 1681495",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 56001,
+            "range": "± 5412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 289040793,
+            "range": "± 649538",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1340589146,
+            "range": "± 3594009",
             "unit": "ns/iter"
           }
         ]
