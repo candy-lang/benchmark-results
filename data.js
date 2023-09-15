@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694724371614,
+  "lastUpdate": 1694763157046,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -15875,6 +15875,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1198703614,
             "range": "± 24784056",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "432eabe0dd6fc5be7d17f6413b4608ae4c870ef6",
+          "message": "Merge pull request #713 from candy-lang/merge_list_and_parenthesized_parsing\n\nMerge list and parenthesized parsing",
+          "timestamp": "2023-09-15T09:28:20+02:00",
+          "tree_id": "3f1af116fdd98d7f34aa3a60c9803732371b8e94",
+          "url": "https://github.com/candy-lang/candy/commit/432eabe0dd6fc5be7d17f6413b4608ae4c870ef6"
+        },
+        "date": 1694763156510,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16880711,
+            "range": "± 250989",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 162527760,
+            "range": "± 613759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 49500,
+            "range": "± 23399",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 265830945,
+            "range": "± 523829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1230655634,
+            "range": "± 5386828",
             "unit": "ns/iter"
           }
         ]
