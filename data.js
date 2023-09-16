@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694763157046,
+  "lastUpdate": 1694871514595,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -15929,6 +15929,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1230655634,
             "range": "± 5386828",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8885f09b694628935d47c3383a42eb5c7d447f33",
+          "message": "Merge pull request #722 from candy-lang/fixes\n\nFixes",
+          "timestamp": "2023-09-16T15:33:21+02:00",
+          "tree_id": "b8a3036ee20d40013ce116acb6fb35884a4943a0",
+          "url": "https://github.com/candy-lang/candy/commit/8885f09b694628935d47c3383a42eb5c7d447f33"
+        },
+        "date": 1694871513575,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23307415,
+            "range": "± 1140238",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 199964056,
+            "range": "± 3024411",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 58504,
+            "range": "± 9311",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 338986238,
+            "range": "± 5077662",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1569427360,
+            "range": "± 22282782",
             "unit": "ns/iter"
           }
         ]
