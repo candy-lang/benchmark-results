@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698343679493,
+  "lastUpdate": 1698347426770,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18131,6 +18131,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 58151,
             "range": "± 11621",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5396ec620cc080dead30c04673008b6f793d8702",
+          "message": "Merge pull request #777 from candy-lang/fix-to-debug-text-constant-folding\n\nFix toDebugText in constant folding",
+          "timestamp": "2023-10-26T20:51:04+02:00",
+          "tree_id": "f69932a8a446073f97a448038d4e98cd19d30309",
+          "url": "https://github.com/candy-lang/candy/commit/5396ec620cc080dead30c04673008b6f793d8702"
+        },
+        "date": 1698347425810,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 42525601,
+            "range": "± 2840161",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 3415820265,
+            "range": "± 87876612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 46152,
+            "range": "± 16545",
             "unit": "ns/iter"
           }
         ]
