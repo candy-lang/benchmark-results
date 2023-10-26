@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698347426770,
+  "lastUpdate": 1698349509069,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18173,6 +18173,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 46152,
             "range": "± 16545",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75356615bc34377bc43f3a1975fca3a466fc9392",
+          "message": "Merge pull request #721 from candy-lang/contributing-guide\n\nAdd contributing guide",
+          "timestamp": "2023-10-26T21:25:00+02:00",
+          "tree_id": "57a0111bc421f0ef5970e542406ffb34108ba6bc",
+          "url": "https://github.com/candy-lang/candy/commit/75356615bc34377bc43f3a1975fca3a466fc9392"
+        },
+        "date": 1698349508133,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 43964909,
+            "range": "± 2355230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 3622426942,
+            "range": "± 35059128",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 47150,
+            "range": "± 17261",
             "unit": "ns/iter"
           }
         ]
