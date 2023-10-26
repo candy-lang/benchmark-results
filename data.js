@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698338726343,
+  "lastUpdate": 1698339764879,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18035,6 +18035,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1253537881,
             "range": "± 1865969",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de2cc9e2ac640cf3a79386e6c0a5770c29a5a278",
+          "message": "Merge pull request #745 from candy-lang/use-lir-for-vm-byte-code\n\nUse LIR for VM byte code",
+          "timestamp": "2023-10-26T18:57:10+02:00",
+          "tree_id": "5603ca2b7bdec3c808f9ee5119bcc103ee5180a7",
+          "url": "https://github.com/candy-lang/candy/commit/de2cc9e2ac640cf3a79386e6c0a5770c29a5a278"
+        },
+        "date": 1698339764105,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 26462601,
+            "range": "± 568109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 191761450,
+            "range": "± 1627935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 67151,
+            "range": "± 10242",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 266343385,
+            "range": "± 1073153",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1242070570,
+            "range": "± 5634755",
             "unit": "ns/iter"
           }
         ]
