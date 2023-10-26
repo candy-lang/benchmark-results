@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698339764879,
+  "lastUpdate": 1698343679493,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18089,6 +18089,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1242070570,
             "range": "± 5634755",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8de67ee359c61e0cf45ec93caafff53b5fe25ee5",
+          "message": "Merge pull request #744 from candy-lang/add-tests\n\nAdd tests to Core package",
+          "timestamp": "2023-10-26T19:51:25+02:00",
+          "tree_id": "cbb71154ce90b252d17b679b7a784c8a841800bf",
+          "url": "https://github.com/candy-lang/candy/commit/8de67ee359c61e0cf45ec93caafff53b5fe25ee5"
+        },
+        "date": 1698343678592,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 45674162,
+            "range": "± 769465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 2952241170,
+            "range": "± 2624802",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 58151,
+            "range": "± 11621",
             "unit": "ns/iter"
           }
         ]
