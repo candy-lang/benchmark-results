@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698349509069,
+  "lastUpdate": 1698629553364,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18215,6 +18215,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 47150,
             "range": "± 17261",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a71bca87545e51548bacdc4c70025a6b6dd7324",
+          "message": "Merge pull request #780 from candy-lang/dependabot/npm_and_yarn/vscode_extension/vscode/debugadapter-1.64.0\n\nBump @vscode/debugadapter from 1.63.0 to 1.64.0 in /vscode_extension",
+          "timestamp": "2023-10-30T02:16:18+01:00",
+          "tree_id": "51c0db705d8b89a1f236704b0772c617f6e49dfb",
+          "url": "https://github.com/candy-lang/candy/commit/1a71bca87545e51548bacdc4c70025a6b6dd7324"
+        },
+        "date": 1698629552770,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 38941653,
+            "range": "± 405253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 2925989153,
+            "range": "± 3613593",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 52800,
+            "range": "± 9778",
             "unit": "ns/iter"
           }
         ]
