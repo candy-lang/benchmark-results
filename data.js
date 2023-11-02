@@ -18358,6 +18358,48 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
+          "id": "5ce791b36b9061d2c30dda0ae8d3bcb7f6a77ae7",
+          "message": "Merge pull request #783 from candy-lang/add-discord-logo\n\nAdd Discord logo",
+          "timestamp": "2023-11-02T14:22:28+01:00",
+          "tree_id": "a3f65f1f8fd4c83f5badb7832426e850dd0151df",
+          "url": "https://github.com/candy-lang/candy/commit/5ce791b36b9061d2c30dda0ae8d3bcb7f6a77ae7"
+        },
+        "date": 1698932336855,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 43883914,
+            "range": "± 753969",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 2939696340,
+            "range": "± 4447441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 52351,
+            "range": "± 11204",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
           "id": "4abbc64da2e7c46ef583875cf1a69e14bb570b31",
           "message": "Merge pull request #779 from candy-lang/yolo\n\nComment out all the tests from Core",
           "timestamp": "2023-11-02T14:27:24+01:00",
@@ -18395,48 +18437,6 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1321633089,
             "range": "± 24954873",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "bot@wanke.dev",
-            "name": "jwbot",
-            "username": "jwbot"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5ce791b36b9061d2c30dda0ae8d3bcb7f6a77ae7",
-          "message": "Merge pull request #783 from candy-lang/add-discord-logo\n\nAdd Discord logo",
-          "timestamp": "2023-11-02T14:22:28+01:00",
-          "tree_id": "a3f65f1f8fd4c83f5badb7832426e850dd0151df",
-          "url": "https://github.com/candy-lang/candy/commit/5ce791b36b9061d2c30dda0ae8d3bcb7f6a77ae7"
-        },
-        "date": 1698932336855,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "Time: Compiler/hello_world",
-            "value": 43883914,
-            "range": "± 753969",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "Time: Compiler/fibonacci",
-            "value": 2939696340,
-            "range": "± 4447441",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "Time: VM Runtime/hello_world",
-            "value": 52351,
-            "range": "± 11204",
             "unit": "ns/iter"
           }
         ]
