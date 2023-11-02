@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698802048784,
+  "lastUpdate": 1698931968182,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18341,6 +18341,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 57001,
             "range": "± 13243",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4abbc64da2e7c46ef583875cf1a69e14bb570b31",
+          "message": "Merge pull request #779 from candy-lang/yolo\n\nComment out all the tests from Core",
+          "timestamp": "2023-11-02T14:27:24+01:00",
+          "tree_id": "bc4f4e3d922c9dc7137f4fc8529f92e3eaf0603b",
+          "url": "https://github.com/candy-lang/candy/commit/4abbc64da2e7c46ef583875cf1a69e14bb570b31"
+        },
+        "date": 1698931967208,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 23760727,
+            "range": "± 692487",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 180158235,
+            "range": "± 1595070",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 57051,
+            "range": "± 6705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 84657861,
+            "range": "± 1037574",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1321633089,
+            "range": "± 24954873",
             "unit": "ns/iter"
           }
         ]
