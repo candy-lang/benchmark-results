@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699318979101,
+  "lastUpdate": 1699375319484,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -18545,6 +18545,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1200379040,
             "range": "± 2038348",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f79988f3e4f7e59530f141a6048531bdc89226b5",
+          "message": "Merge pull request #786 from candy-lang/use-extract-if\n\nUse `vec.extract_if(…)` for constant lifting",
+          "timestamp": "2023-11-07T17:35:19+01:00",
+          "tree_id": "2ada0a4a294a7d69a4dd8cde0801f87d01a3b8c0",
+          "url": "https://github.com/candy-lang/candy/commit/f79988f3e4f7e59530f141a6048531bdc89226b5"
+        },
+        "date": 1699375318671,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 26515438,
+            "range": "± 1567297",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 232722061,
+            "range": "± 5044822",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 56300,
+            "range": "± 14330",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 96643421,
+            "range": "± 3874637",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1503641251,
+            "range": "± 27349683",
             "unit": "ns/iter"
           }
         ]
