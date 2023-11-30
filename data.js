@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701303524398,
+  "lastUpdate": 1701346707921,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -19571,6 +19571,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 893578585,
             "range": "± 6073150",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0769e2aec463fb63621c73074fd484e559a83b58",
+          "message": "Merge pull request #820 from candy-lang/decrease-npm-update-frequency\n\nReduce NPM updates to weekly",
+          "timestamp": "2023-11-30T13:14:42+01:00",
+          "tree_id": "0dba752029fbbe8a00d25d61308c4d77ce7a81d6",
+          "url": "https://github.com/candy-lang/candy/commit/0769e2aec463fb63621c73074fd484e559a83b58"
+        },
+        "date": 1701346707067,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17951866,
+            "range": "± 898862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 137291765,
+            "range": "± 2254855",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 35701,
+            "range": "± 3119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 58821393,
+            "range": "± 736008",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 897953758,
+            "range": "± 9241703",
             "unit": "ns/iter"
           }
         ]
