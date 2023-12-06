@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701652387922,
+  "lastUpdate": 1701859209790,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -19733,6 +19733,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 903352004,
             "range": "± 8595550",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba0cfa2653c3d7613f8796886bcfe544f650be45",
+          "message": "Merge pull request #825 from candy-lang/formatter-issue-template\n\nCreate formatter issue template",
+          "timestamp": "2023-12-06T11:36:26+01:00",
+          "tree_id": "cc21bb40564d111cb2917d15f9f59630583bdd90",
+          "url": "https://github.com/candy-lang/candy/commit/ba0cfa2653c3d7613f8796886bcfe544f650be45"
+        },
+        "date": 1701859208948,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17180403,
+            "range": "± 807590",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 136975068,
+            "range": "± 1525897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 33978,
+            "range": "± 50701",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 58257702,
+            "range": "± 929349",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 911091686,
+            "range": "± 10966482",
             "unit": "ns/iter"
           }
         ]
