@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701859209790,
+  "lastUpdate": 1701969918062,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -19787,6 +19787,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 911091686,
             "range": "± 10966482",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d47446c6956a9df03ebd499a7f8fd960913975ff",
+          "message": "Merge pull request #831 from candy-lang/830-vm-compiler-crashing-due-to-negative-bit-length\n\nAvoid calling `bit_length()` on negative integer",
+          "timestamp": "2023-12-07T18:21:51+01:00",
+          "tree_id": "e9bed54110659400f4412b234364dc4588dce0cb",
+          "url": "https://github.com/candy-lang/candy/commit/d47446c6956a9df03ebd499a7f8fd960913975ff"
+        },
+        "date": 1701969917573,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17287304,
+            "range": "± 769204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 134384059,
+            "range": "± 1859687",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32596,
+            "range": "± 4020",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 57778944,
+            "range": "± 1310503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 885742674,
+            "range": "± 10156405",
             "unit": "ns/iter"
           }
         ]
