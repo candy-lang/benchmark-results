@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702860829305,
+  "lastUpdate": 1703012201190,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20057,6 +20057,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 894413363,
             "range": "± 6506275",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97f7c47536310ad39155e2595331bb600c9d1af2",
+          "message": "Merge pull request #846 from candy-lang/show-constant-values-in-rich-ir\n\nShow constant values in Rich IR",
+          "timestamp": "2023-12-19T19:53:12+01:00",
+          "tree_id": "2f7f87af39e862ff1af1b97853535e681056c3db",
+          "url": "https://github.com/candy-lang/candy/commit/97f7c47536310ad39155e2595331bb600c9d1af2"
+        },
+        "date": 1703012200639,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16094920,
+            "range": "± 361724",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 129414318,
+            "range": "± 2767989",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32631,
+            "range": "± 5896",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 55563513,
+            "range": "± 591335",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 848767119,
+            "range": "± 10687100",
             "unit": "ns/iter"
           }
         ]
