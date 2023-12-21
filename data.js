@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703012201190,
+  "lastUpdate": 1703165845229,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20111,6 +20111,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 848767119,
             "range": "± 10687100",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef6be3207d52192508e317c2c2388cb43a47c28d",
+          "message": "Merge pull request #849 from candy-lang/fix-use-after-free-in-fuzzer\n\nFix use-after-free in fuzzer",
+          "timestamp": "2023-12-21T14:33:47+01:00",
+          "tree_id": "66540f0f80b8b22c9a10b71fcfc55ba732156441",
+          "url": "https://github.com/candy-lang/candy/commit/ef6be3207d52192508e317c2c2388cb43a47c28d"
+        },
+        "date": 1703165844353,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 16438784,
+            "range": "± 594104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 128285204,
+            "range": "± 1843597",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32781,
+            "range": "± 3406",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 54891227,
+            "range": "± 633067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 837775887,
+            "range": "± 7927704",
             "unit": "ns/iter"
           }
         ]
