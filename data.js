@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703465088272,
+  "lastUpdate": 1703538973197,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20273,6 +20273,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 858358972,
             "range": "± 10045743",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d36e5159fb2a7f64575edad84bf910cb6d740818",
+          "message": "Merge pull request #772 from candy-lang/chrono-package\n\nChrono package",
+          "timestamp": "2023-12-25T22:12:52+01:00",
+          "tree_id": "56aaa900efa919a754ee568322334b8ccdef8b15",
+          "url": "https://github.com/candy-lang/candy/commit/d36e5159fb2a7f64575edad84bf910cb6d740818"
+        },
+        "date": 1703538972238,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 17369168,
+            "range": "± 355109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 137159030,
+            "range": "± 1001993",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32486,
+            "range": "± 49450",
             "unit": "ns/iter"
           }
         ]
