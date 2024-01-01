@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703538973197,
+  "lastUpdate": 1704069574520,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20315,6 +20315,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32486,
             "range": "± 49450",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "912e85f6146cd211b0d2c92336b6d9e744c68d63",
+          "message": "Merge pull request #853 from candy-lang/dependabot/npm_and_yarn/vscode_extension/typescript-eslint-e4b9799a96\n\nBump the typescript-eslint group in /vscode_extension with 2 updates",
+          "timestamp": "2024-01-01T01:36:41+01:00",
+          "tree_id": "66016a412c58120b15498207c1d2c0ed8f775780",
+          "url": "https://github.com/candy-lang/candy/commit/912e85f6146cd211b0d2c92336b6d9e744c68d63"
+        },
+        "date": 1704069573955,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18043246,
+            "range": "± 542232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 138879149,
+            "range": "± 3200657",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32360,
+            "range": "± 36441",
             "unit": "ns/iter"
           }
         ]
