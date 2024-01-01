@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704069574520,
+  "lastUpdate": 1704069749807,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20357,6 +20357,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32360,
             "range": "± 36441",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3b78c1780ad6689cc61b6f75dd3b4819fed5b68",
+          "message": "Merge pull request #854 from candy-lang/dependabot/npm_and_yarn/vscode_extension/types/node-20.10.6\n\nBump @types/node from 20.10.4 to 20.10.6 in /vscode_extension",
+          "timestamp": "2024-01-01T01:36:58+01:00",
+          "tree_id": "62ce39104db98975edcb58f1150666feb3ddca53",
+          "url": "https://github.com/candy-lang/candy/commit/d3b78c1780ad6689cc61b6f75dd3b4819fed5b68"
+        },
+        "date": 1704069749256,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18788264,
+            "range": "± 508612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 142511944,
+            "range": "± 1152246",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 34309,
+            "range": "± 3642",
             "unit": "ns/iter"
           }
         ]
