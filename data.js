@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704538593471,
+  "lastUpdate": 1704539419882,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20441,6 +20441,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 31418,
             "range": "± 38705",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1f8e4ecc95e96880879f71548f3c83cfbfca179",
+          "message": "Merge pull request #845 from candy-lang/simplify-formatter-issue-template\n\nSimplify formatter issue template",
+          "timestamp": "2024-01-06T12:07:25+01:00",
+          "tree_id": "a27966e632f058f17e14f1a20cba3c9b47e259bb",
+          "url": "https://github.com/candy-lang/candy/commit/c1f8e4ecc95e96880879f71548f3c83cfbfca179"
+        },
+        "date": 1704539419337,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18199559,
+            "range": "± 790692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 140650235,
+            "range": "± 1344963",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 33533,
+            "range": "± 3308",
             "unit": "ns/iter"
           }
         ]
