@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704543453053,
+  "lastUpdate": 1704546193643,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20567,6 +20567,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32055,
             "range": "± 92728",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "888530043c2ac4a8fc4820daa85fc0a7995cd700",
+          "message": "Merge pull request #778 from candy-lang/refactor-iterable\n\nRefactor iterable",
+          "timestamp": "2024-01-06T13:59:55+01:00",
+          "tree_id": "2876309965faaaeac1970cfdcf76fe3bc5f5c300",
+          "url": "https://github.com/candy-lang/candy/commit/888530043c2ac4a8fc4820daa85fc0a7995cd700"
+        },
+        "date": 1704546192623,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21646011,
+            "range": "± 377531",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 176912587,
+            "range": "± 1515200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32405,
+            "range": "± 3701",
             "unit": "ns/iter"
           }
         ]
