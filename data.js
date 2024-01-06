@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704540351683,
+  "lastUpdate": 1704543453053,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20525,6 +20525,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32010,
             "range": "± 1622",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43e93ada5ae5720f2226bb8688d78691ae34849b",
+          "message": "Merge pull request #840 from candy-lang/more-text-functions\n\nMore text functions",
+          "timestamp": "2024-01-06T13:14:36+01:00",
+          "tree_id": "133ac6ede6e2d4ba729122ab36d1e7daa4fe054c",
+          "url": "https://github.com/candy-lang/candy/commit/43e93ada5ae5720f2226bb8688d78691ae34849b"
+        },
+        "date": 1704543452481,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18696214,
+            "range": "± 663107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 144743100,
+            "range": "± 1008251",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32055,
+            "range": "± 92728",
             "unit": "ns/iter"
           }
         ]
