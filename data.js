@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704554486514,
+  "lastUpdate": 1704557137763,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20651,6 +20651,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32405,
             "range": "± 1280",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a68dbb9b012ede17ab5d72dc6cc793aef4cf42e0",
+          "message": "Merge pull request #852 from candy-lang/support-all-tracingmodes-in-cli\n\nSupport all `TracingMode`s in CLI",
+          "timestamp": "2024-01-06T17:02:05+01:00",
+          "tree_id": "dff053483c1ecb426d6135706498f7ee27fb4c46",
+          "url": "https://github.com/candy-lang/candy/commit/a68dbb9b012ede17ab5d72dc6cc793aef4cf42e0"
+        },
+        "date": 1704557137199,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22131864,
+            "range": "± 416337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 177627245,
+            "range": "± 2599838",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32837,
+            "range": "± 2809",
             "unit": "ns/iter"
           }
         ]
