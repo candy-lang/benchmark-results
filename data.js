@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704069749807,
+  "lastUpdate": 1704538593471,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20399,6 +20399,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 34309,
             "range": "± 3642",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7fd872f659b69b1cd94267e84b173c789023c61f",
+          "message": "Merge pull request #839 from candy-lang/dependabot/github_actions/github/codeql-action-3\n\nBump github/codeql-action from 2 to 3",
+          "timestamp": "2024-01-06T11:53:23+01:00",
+          "tree_id": "762e07671d8be9334360c520ec3b20ea947b0cf4",
+          "url": "https://github.com/candy-lang/candy/commit/7fd872f659b69b1cd94267e84b173c789023c61f"
+        },
+        "date": 1704538592898,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 18085581,
+            "range": "± 662957",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 138518782,
+            "range": "± 1365337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 31418,
+            "range": "± 38705",
             "unit": "ns/iter"
           }
         ]
