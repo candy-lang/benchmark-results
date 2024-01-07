@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704557137763,
+  "lastUpdate": 1704617562594,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20693,6 +20693,48 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 32837,
             "range": "± 2809",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0cef6f50a857b6a97a712558d8d697d12de6730",
+          "message": "Merge pull request #859 from candy-lang/optimize-simple-if\n\nOptimize if foo { True } { False }",
+          "timestamp": "2024-01-07T09:49:22+01:00",
+          "tree_id": "97c176873c94d040a4d5638ded65e3d081b6d8ea",
+          "url": "https://github.com/candy-lang/candy/commit/b0cef6f50a857b6a97a712558d8d697d12de6730"
+        },
+        "date": 1704617561887,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20867792,
+            "range": "± 290647",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 176208089,
+            "range": "± 359576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 31163,
+            "range": "± 2129",
             "unit": "ns/iter"
           }
         ]
