@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704935012390,
+  "lastUpdate": 1704966617264,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20861,6 +20861,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/hello_world",
             "value": 34565,
             "range": "± 3714",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5d74d946c2b82e532f80776aa65cd3763f2ed03",
+          "message": "Merge pull request #856 from candy-lang/fix-body-returning-constant-value\n\nFix use-after-free and bodies returning constant value",
+          "timestamp": "2024-01-11T10:46:25+01:00",
+          "tree_id": "c794a53feab472e53168be7083fcebaf76853eb2",
+          "url": "https://github.com/candy-lang/candy/commit/b5d74d946c2b82e532f80776aa65cd3763f2ed03"
+        },
+        "date": 1704966616661,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 22378114,
+            "range": "± 613465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 178963397,
+            "range": "± 1811362",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 34304,
+            "range": "± 2816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 332434743,
+            "range": "± 2560988",
             "unit": "ns/iter"
           }
         ]
