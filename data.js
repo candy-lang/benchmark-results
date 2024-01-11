@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704969013605,
+  "lastUpdate": 1704969556838,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21005,6 +21005,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 318451805,
             "range": "± 1999115",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96e7e416d55df834d9fef857582f138877a20fe8",
+          "message": "Merge pull request #867 from candy-lang/optimizations\n\nCompile tag patterns more efficiently",
+          "timestamp": "2024-01-11T11:35:56+01:00",
+          "tree_id": "64195631517dba512a50af82e1e8f2a1b764998b",
+          "url": "https://github.com/candy-lang/candy/commit/96e7e416d55df834d9fef857582f138877a20fe8"
+        },
+        "date": 1704969556223,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20951841,
+            "range": "± 678747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 171710151,
+            "range": "± 2230113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 31623,
+            "range": "± 3592",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 285858036,
+            "range": "± 3592015",
             "unit": "ns/iter"
           }
         ]
