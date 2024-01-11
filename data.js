@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704980926528,
+  "lastUpdate": 1704993492239,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21149,6 +21149,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 298105197,
             "range": "± 3660852",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c85f2acf999b2cc187dfeead8fb2d050e6c44cf2",
+          "message": "Merge pull request #841 from candy-lang/optimize-deterministic-stuff\n\nDeduplicate deterministic expressions",
+          "timestamp": "2024-01-11T18:13:56+01:00",
+          "tree_id": "1c216d70c6c1bde027e69e92ab2efb3605e784ee",
+          "url": "https://github.com/candy-lang/candy/commit/c85f2acf999b2cc187dfeead8fb2d050e6c44cf2"
+        },
+        "date": 1704993491244,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 41056488,
+            "range": "± 1776829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 203549046,
+            "range": "± 3748322",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 49888,
+            "range": "± 7259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 275010637,
+            "range": "± 3042089",
             "unit": "ns/iter"
           }
         ]
