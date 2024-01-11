@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704966830856,
+  "lastUpdate": 1704969013605,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20957,6 +20957,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 327903832,
             "range": "± 4674028",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b18d2ca2df2eaa7dec4e1658284d56b9ae9ad979",
+          "message": "Merge pull request #862 from candy-lang/fix-another-use-after-free\n\nDup responsibility value when passing as normal argument",
+          "timestamp": "2024-01-11T11:26:38+01:00",
+          "tree_id": "5c071766660245b26be2f1c9c4c685d2fbab967f",
+          "url": "https://github.com/candy-lang/candy/commit/b18d2ca2df2eaa7dec4e1658284d56b9ae9ad979"
+        },
+        "date": 1704969013040,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21962381,
+            "range": "± 396000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 177752820,
+            "range": "± 880414",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32220,
+            "range": "± 2413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 318451805,
+            "range": "± 1999115",
             "unit": "ns/iter"
           }
         ]
