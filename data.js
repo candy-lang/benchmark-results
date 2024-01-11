@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704993492239,
+  "lastUpdate": 1705007805264,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21197,6 +21197,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 275010637,
             "range": "± 3042089",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb818d7270cc3e312cc87d10c4b87b7b8f775911",
+          "message": "Merge pull request #872 from candy-lang/optimize-patterns\n\nOptimize patterns",
+          "timestamp": "2024-01-11T22:12:54+01:00",
+          "tree_id": "c8a8a487274bc29c43d254763681e53d2e9f1c78",
+          "url": "https://github.com/candy-lang/candy/commit/eb818d7270cc3e312cc87d10c4b87b7b8f775911"
+        },
+        "date": 1705007804320,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 36580270,
+            "range": "± 945434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 182080948,
+            "range": "± 6818389",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 40771,
+            "range": "± 3311",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 258999929,
+            "range": "± 5860624",
             "unit": "ns/iter"
           }
         ]
