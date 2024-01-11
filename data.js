@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704979138417,
+  "lastUpdate": 1704980926528,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21101,6 +21101,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 285761946,
             "range": "± 4854222",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b18fc85aa4b1d486e194bad5d348ea7b2f2890e",
+          "message": "Merge pull request #869 from candy-lang/optimize-use-builtins\n\nDon't import builtins multiple times in unoptimized HIR",
+          "timestamp": "2024-01-11T14:45:45+01:00",
+          "tree_id": "51ae1007017a8c1fe62c0074436a55cabd462b13",
+          "url": "https://github.com/candy-lang/candy/commit/2b18fc85aa4b1d486e194bad5d348ea7b2f2890e"
+        },
+        "date": 1704980925819,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 35244067,
+            "range": "± 1071478",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 163784951,
+            "range": "± 1165509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 38657,
+            "range": "± 4691",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 298105197,
+            "range": "± 3660852",
             "unit": "ns/iter"
           }
         ]
