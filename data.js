@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704969556838,
+  "lastUpdate": 1704979138417,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21053,6 +21053,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 285858036,
             "range": "± 3592015",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1c5f6208f2c12267609b288ebbed0fbfe745318",
+          "message": "Merge pull request #870 from candy-lang/advent-of-code-2023\n\nAdvent of Code 2023, day 1, part 1",
+          "timestamp": "2024-01-11T14:15:37+01:00",
+          "tree_id": "df1f6668d79fa4efa54e90459890d1d9b4a1f81d",
+          "url": "https://github.com/candy-lang/candy/commit/e1c5f6208f2c12267609b288ebbed0fbfe745318"
+        },
+        "date": 1704979137816,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 20443837,
+            "range": "± 633820",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 171155157,
+            "range": "± 2030941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 31278,
+            "range": "± 2383",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 285761946,
+            "range": "± 4854222",
             "unit": "ns/iter"
           }
         ]
