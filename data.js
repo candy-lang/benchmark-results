@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704966617264,
+  "lastUpdate": 1704966830856,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -20909,6 +20909,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 332434743,
             "range": "± 2560988",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c20159ffbb4cc77558cc56f0dc2f964fe817ace2",
+          "message": "Merge pull request #863 from candy-lang/cleanup\n\nAdd #[must_use]; remove unused struct; update VS Code workspace config",
+          "timestamp": "2024-01-11T10:49:58+01:00",
+          "tree_id": "7832d6f53c695657cfd1de72aae20c4d6a938a9a",
+          "url": "https://github.com/candy-lang/candy/commit/c20159ffbb4cc77558cc56f0dc2f964fe817ace2"
+        },
+        "date": 1704966830263,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 21905897,
+            "range": "± 449857",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 178317911,
+            "range": "± 1609315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 32530,
+            "range": "± 3544",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 327903832,
+            "range": "± 4674028",
             "unit": "ns/iter"
           }
         ]
