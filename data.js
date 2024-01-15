@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705278205404,
+  "lastUpdate": 1705281154989,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21341,6 +21341,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 257668626,
             "range": "± 2263123",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f34fb263ad0dec6bfda0df6c5523310a1138ab1",
+          "message": "Merge pull request #877 from candy-lang/dependabot/github_actions/Swatinem/rust-cache-2.7.3\n\nBump Swatinem/rust-cache from 2.7.2 to 2.7.3",
+          "timestamp": "2024-01-15T02:08:47+01:00",
+          "tree_id": "c162826d434e2bfe94127eab75571c3f69272d64",
+          "url": "https://github.com/candy-lang/candy/commit/8f34fb263ad0dec6bfda0df6c5523310a1138ab1"
+        },
+        "date": 1705281154054,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 35922095,
+            "range": "± 1028339",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 179415750,
+            "range": "± 734512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 36537,
+            "range": "± 3656",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 257579462,
+            "range": "± 2435957",
             "unit": "ns/iter"
           }
         ]
