@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705584768253,
+  "lastUpdate": 1705597383288,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21485,6 +21485,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 613088906,
             "range": "± 5655022",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd10eb66a305f181a57c1d22ff1a03095996f6e1",
+          "message": "Merge pull request #871 from candy-lang/trace-tail-calls\n\nTrace tail calls",
+          "timestamp": "2024-01-18T17:55:17+01:00",
+          "tree_id": "8bfb79e84c237decea5db39b69551ccbdf7ee3e8",
+          "url": "https://github.com/candy-lang/candy/commit/cd10eb66a305f181a57c1d22ff1a03095996f6e1"
+        },
+        "date": 1705597382663,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 67871309,
+            "range": "± 524647",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 543243247,
+            "range": "± 5125626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 1649711,
+            "range": "± 89688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 647281695,
+            "range": "± 13160544",
             "unit": "ns/iter"
           }
         ]
