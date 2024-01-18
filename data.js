@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705281154989,
+  "lastUpdate": 1705558352040,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21389,6 +21389,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 257579462,
             "range": "± 2435957",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6418887749af17f90fcab06e737545d9ad24daad",
+          "message": "Merge pull request #879 from candy-lang/dependabot/github_actions/actions/cache-4\n\nBump actions/cache from 3 to 4",
+          "timestamp": "2024-01-18T07:08:44+01:00",
+          "tree_id": "db78befa56936c755522a53d1c6f6ae1e4f11244",
+          "url": "https://github.com/candy-lang/candy/commit/6418887749af17f90fcab06e737545d9ad24daad"
+        },
+        "date": 1705558351398,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 36836867,
+            "range": "± 1398783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 181700918,
+            "range": "± 1388107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 41942,
+            "range": "± 3547",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 260176079,
+            "range": "± 2695682",
             "unit": "ns/iter"
           }
         ]
