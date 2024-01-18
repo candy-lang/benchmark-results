@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705597383288,
+  "lastUpdate": 1705598761540,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21533,6 +21533,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 647281695,
             "range": "± 13160544",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e579c9bf527403dbd536ed15ca06da3fc29d794",
+          "message": "Merge pull request #881 from candy-lang/call-tracing-mode-only-potentially-panicking\n\nCall tracing mode: only potentially panicking",
+          "timestamp": "2024-01-18T18:21:48+01:00",
+          "tree_id": "80c86d7387d762fa5d1bf172dfbf2657b916a681",
+          "url": "https://github.com/candy-lang/candy/commit/9e579c9bf527403dbd536ed15ca06da3fc29d794"
+        },
+        "date": 1705598760562,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 39812070,
+            "range": "± 919328",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 197265283,
+            "range": "± 5800320",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 42294,
+            "range": "± 2841",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 306523688,
+            "range": "± 3039008",
             "unit": "ns/iter"
           }
         ]
