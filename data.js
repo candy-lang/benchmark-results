@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705558352040,
+  "lastUpdate": 1705584768253,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21437,6 +21437,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 260176079,
             "range": "± 2695682",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aba0f73a81d31da039827e0ed479776078804ead",
+          "message": "Merge pull request #880 from candy-lang/enable-call-tracing-in-benchmarks\n\nEnable call tracing in benchmarks",
+          "timestamp": "2024-01-18T14:24:55+01:00",
+          "tree_id": "36cfb6a5202c44d512a1534bbdcb6680ac5d35a7",
+          "url": "https://github.com/candy-lang/candy/commit/aba0f73a81d31da039827e0ed479776078804ead"
+        },
+        "date": 1705584767231,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 63070115,
+            "range": "± 2324162",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 529005233,
+            "range": "± 9874685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 1674420,
+            "range": "± 89639",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 613088906,
+            "range": "± 5655022",
             "unit": "ns/iter"
           }
         ]
