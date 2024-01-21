@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705598761540,
+  "lastUpdate": 1705872869961,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21581,6 +21581,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 306523688,
             "range": "± 3039008",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed594f5a5f23d6c31506836cdcdb7d6d86a3a3f8",
+          "message": "Merge pull request #898 from candy-lang/718-crash-on-two-public-assignments-with-same-name\n\nFix language server crash on two public assignments with the same name",
+          "timestamp": "2024-01-21T22:30:35+01:00",
+          "tree_id": "c018f82d01875b1461f11ac4023c7f615a1d0191",
+          "url": "https://github.com/candy-lang/candy/commit/ed594f5a5f23d6c31506836cdcdb7d6d86a3a3f8"
+        },
+        "date": 1705872869050,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 38975314,
+            "range": "± 1148956",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 193974764,
+            "range": "± 1767519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 44704,
+            "range": "± 48943",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 305587443,
+            "range": "± 2703266",
             "unit": "ns/iter"
           }
         ]
