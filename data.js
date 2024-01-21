@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705873148591,
+  "lastUpdate": 1705873458243,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21677,6 +21677,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 305357672,
             "range": "± 2998213",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ecccc0237fd829de5d17a307d6f2031853d6dcc5",
+          "message": "Merge pull request #887 from candy-lang/scopes_higher_order_fn\n\nScopes higher order fn",
+          "timestamp": "2024-01-21T22:40:32+01:00",
+          "tree_id": "c86a9398020a99fb7d23a507e6df6748fd574a9e",
+          "url": "https://github.com/candy-lang/candy/commit/ecccc0237fd829de5d17a307d6f2031853d6dcc5"
+        },
+        "date": 1705873457259,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 37576075,
+            "range": "± 893727",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 188375352,
+            "range": "± 2914850",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 36894,
+            "range": "± 3020",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 291707352,
+            "range": "± 5065350",
             "unit": "ns/iter"
           }
         ]
