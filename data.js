@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705872869961,
+  "lastUpdate": 1705873148591,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21629,6 +21629,54 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 305587443,
             "range": "± 2703266",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "099c685c2f272d1bcd05312dc8390f4c8819ca9b",
+          "message": "Merge pull request #897 from candy-lang/fix-stack-trace-formatting-of-needs-hir-id\n\nFix stack trace formatting of needs' HIR ID",
+          "timestamp": "2024-01-21T22:35:22+01:00",
+          "tree_id": "0f568c639583b5d3fff182d8bda6d03495cb3580",
+          "url": "https://github.com/candy-lang/candy/commit/099c685c2f272d1bcd05312dc8390f4c8819ca9b"
+        },
+        "date": 1705873147700,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 37947891,
+            "range": "± 481330",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 190717484,
+            "range": "± 1626499",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 37570,
+            "range": "± 2037",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 305357672,
+            "range": "± 2998213",
             "unit": "ns/iter"
           }
         ]
