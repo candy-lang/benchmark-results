@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705886095897,
+  "lastUpdate": 1706173949036,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -21821,6 +21821,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/fibonacci/15",
             "value": 296392421,
             "range": "± 1374671",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb5571417dc89850c58506789f892a1b5cf5e8ee",
+          "message": "Merge pull request #902 from candy-lang/fix-programming-language-benchmark\n\nFix programming language benchmark",
+          "timestamp": "2024-01-25T10:08:21+01:00",
+          "tree_id": "181b04b8687abb1d87b95348414a710ff9b26e42",
+          "url": "https://github.com/candy-lang/candy/commit/bb5571417dc89850c58506789f892a1b5cf5e8ee"
+        },
+        "date": 1706173948488,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 37726636,
+            "range": "± 581259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 191835875,
+            "range": "± 698916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 43466,
+            "range": "± 5701",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 296425323,
+            "range": "± 1677685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1613548766,
+            "range": "± 21582512",
             "unit": "ns/iter"
           }
         ]
