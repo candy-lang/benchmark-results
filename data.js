@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706795738995,
+  "lastUpdate": 1706797070940,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -22631,6 +22631,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 638369242,
             "range": "± 8582660",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe82a8c77f2e23cbd1840a582bb6086605a60b97",
+          "message": "Merge pull request #924 from candy-lang/document-lir\n\nAdd simple glossary to LIR",
+          "timestamp": "2024-02-01T15:09:51+01:00",
+          "tree_id": "d944e5ceadaf158523562994a778aad4545a0530",
+          "url": "https://github.com/candy-lang/candy/commit/fe82a8c77f2e23cbd1840a582bb6086605a60b97"
+        },
+        "date": 1706797070449,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 57241545,
+            "range": "± 1844364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 263002340,
+            "range": "± 13178275",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 39714,
+            "range": "± 2581",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21899151,
+            "range": "± 314266",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 621744217,
+            "range": "± 2762858",
             "unit": "ns/iter"
           }
         ]
