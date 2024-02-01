@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706780016017,
+  "lastUpdate": 1706786234765,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -22523,6 +22523,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 1330293290,
             "range": "± 5611946",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca2aff98e23d93fdd26a4ac6978a7c2f38559e7b",
+          "message": "Merge pull request #909 from candy-lang/guard-calls-with-checks\n\nGuard calls",
+          "timestamp": "2024-02-01T12:11:37+01:00",
+          "tree_id": "5e98780d5d7e2e977b261e67d555235761081f4e",
+          "url": "https://github.com/candy-lang/candy/commit/ca2aff98e23d93fdd26a4ac6978a7c2f38559e7b"
+        },
+        "date": 1706786234057,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 46555113,
+            "range": "± 791515",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 190707401,
+            "range": "± 9292413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 37855,
+            "range": "± 1492",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 52640707,
+            "range": "± 870794",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 1407459497,
+            "range": "± 13022856",
             "unit": "ns/iter"
           }
         ]
