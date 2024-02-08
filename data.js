@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707415946555,
+  "lastUpdate": 1707430524808,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -22901,6 +22901,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 644948778,
             "range": "± 8776113",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5778928a171d2de3356c60bbd66171a8a9fe0a06",
+          "message": "Merge pull request #937 from candy-lang/935-complex-numbers-package\n\nComplex Number Package",
+          "timestamp": "2024-02-08T23:07:25+01:00",
+          "tree_id": "3d18eca3752a254b1d167c4fd39e3436357da203",
+          "url": "https://github.com/candy-lang/candy/commit/5778928a171d2de3356c60bbd66171a8a9fe0a06"
+        },
+        "date": 1707430524196,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 55724186,
+            "range": "± 957083",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 260016010,
+            "range": "± 2335614",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 40581,
+            "range": "± 52979",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21793370,
+            "range": "± 315598",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 625628274,
+            "range": "± 3389729",
             "unit": "ns/iter"
           }
         ]
