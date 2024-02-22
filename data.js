@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708304211727,
+  "lastUpdate": 1708620881729,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23117,6 +23117,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 613509346,
             "range": "± 7378797",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f99bf4e4202967bf341286e1b2ed71e4f81afc1",
+          "message": "Merge pull request #948 from candy-lang/update-rust\n\nUpdate Rust to nightly-2024-02-22 (1.78.0-nightly)",
+          "timestamp": "2024-02-22T17:45:42+01:00",
+          "tree_id": "c324543f2fb836a259e887bc1fd8001979c31c56",
+          "url": "https://github.com/candy-lang/candy/commit/7f99bf4e4202967bf341286e1b2ed71e4f81afc1"
+        },
+        "date": 1708620880926,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 54437870,
+            "range": "± 852073",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 253139501,
+            "range": "± 7237353",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 38697,
+            "range": "± 48869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21246519,
+            "range": "± 196076",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 620691701,
+            "range": "± 8677387",
             "unit": "ns/iter"
           }
         ]
