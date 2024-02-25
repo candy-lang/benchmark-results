@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708620881729,
+  "lastUpdate": 1708858133607,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23171,6 +23171,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 620691701,
             "range": "± 8677387",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c238573ddc86debe4f5d727c5207c717980b5d5c",
+          "message": "Merge pull request #949 from candy-lang/update-readme\n\nUpdate README",
+          "timestamp": "2024-02-25T11:41:03+01:00",
+          "tree_id": "d5f84f649e7ecf20ca0190c8e056840d1ac340d7",
+          "url": "https://github.com/candy-lang/candy/commit/c238573ddc86debe4f5d727c5207c717980b5d5c"
+        },
+        "date": 1708858133046,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 54977850,
+            "range": "± 893511",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 249814195,
+            "range": "± 1527660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 38096,
+            "range": "± 37396",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21279575,
+            "range": "± 195874",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 594916010,
+            "range": "± 5088833",
             "unit": "ns/iter"
           }
         ]
