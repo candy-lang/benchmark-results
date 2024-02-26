@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708911500794,
+  "lastUpdate": 1708931969682,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23495,6 +23495,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 601780800,
             "range": "± 3370269",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e54c5be6e49710341470bfe6b793e13fee3e0646",
+          "message": "Merge pull request #955 from quag/fix-duration-clock\n\nFix panic in Chrono.duration.toText",
+          "timestamp": "2024-02-26T08:10:54+01:00",
+          "tree_id": "68a442a15226168f5530838a0b8ddc8d7ad57cc6",
+          "url": "https://github.com/candy-lang/candy/commit/e54c5be6e49710341470bfe6b793e13fee3e0646"
+        },
+        "date": 1708931968588,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 55911448,
+            "range": "± 1303821",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 254106396,
+            "range": "± 1456728",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 38192,
+            "range": "± 45200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21506045,
+            "range": "± 237175",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 603733820,
+            "range": "± 2654754",
             "unit": "ns/iter"
           }
         ]
