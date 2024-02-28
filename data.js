@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708931969682,
+  "lastUpdate": 1709133484312,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23549,6 +23549,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 603733820,
             "range": "± 2654754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "contact@jonas-wanke.com",
+            "name": "Jonas Wanke",
+            "username": "JonasWanke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e6bf9e3a36d82d2fa9759bf895bb0184c646c3b7",
+          "message": "Merge pull request #927 from candy-lang/fix-folding-range-panic\n\nFix folding range panic",
+          "timestamp": "2024-02-28T16:09:29+01:00",
+          "tree_id": "33030b345c741d60fd88c40dc2baf67a0c8ccb1b",
+          "url": "https://github.com/candy-lang/candy/commit/e6bf9e3a36d82d2fa9759bf895bb0184c646c3b7"
+        },
+        "date": 1709133483643,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 59343488,
+            "range": "± 1931434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 254364683,
+            "range": "± 8089695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 40145,
+            "range": "± 58086",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21777584,
+            "range": "± 241696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 613145616,
+            "range": "± 6435952",
             "unit": "ns/iter"
           }
         ]
