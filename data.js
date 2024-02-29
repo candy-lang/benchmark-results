@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709225101098,
+  "lastUpdate": 1709228406053,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23873,6 +23873,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 612382502,
             "range": "± 5191772",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "945002ff5c84154d984ed3ce3188fdfc1d3aa0f8",
+          "message": "Merge pull request #964 from candy-lang/more-int-constant-folding\n\nConstant fold more int operations",
+          "timestamp": "2024-02-29T18:31:15+01:00",
+          "tree_id": "588161e113a04b6641351a9b59b36de730f40e8b",
+          "url": "https://github.com/candy-lang/candy/commit/945002ff5c84154d984ed3ce3188fdfc1d3aa0f8"
+        },
+        "date": 1709228405457,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 60498007,
+            "range": "± 1928994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 278986279,
+            "range": "± 9082944",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 40581,
+            "range": "± 78284",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 22110817,
+            "range": "± 393625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 647600621,
+            "range": "± 10540535",
             "unit": "ns/iter"
           }
         ]
