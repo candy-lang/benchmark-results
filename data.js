@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709239231814,
+  "lastUpdate": 1709239748968,
   "repoUrl": "https://github.com/candy-lang/candy",
   "entries": {
     "Compiler": [
@@ -23981,6 +23981,60 @@ window.BENCHMARK_DATA = {
             "name": "Time: VM Runtime/PLB/binarytrees/6",
             "value": 641054308,
             "range": "± 7701903",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@wanke.dev",
+            "name": "jwbot",
+            "username": "jwbot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfa88d08ca089c3443c99b63090be85c684bb25e",
+          "message": "Merge pull request #967 from candy-lang/constant-fold-multiplication-with-zero\n\nConstant-fold multiplication with zero",
+          "timestamp": "2024-02-29T21:38:56+01:00",
+          "tree_id": "3348e2af36397cd2f49b0e9488d6da75189c8ee2",
+          "url": "https://github.com/candy-lang/candy/commit/bfa88d08ca089c3443c99b63090be85c684bb25e"
+        },
+        "date": 1709239748314,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Time: Compiler/hello_world",
+            "value": 58113509,
+            "range": "± 2042861",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: Compiler/fibonacci",
+            "value": 262534525,
+            "range": "± 8279472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/hello_world",
+            "value": 41171,
+            "range": "± 67732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/fibonacci/15",
+            "value": 21710568,
+            "range": "± 396795",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Time: VM Runtime/PLB/binarytrees/6",
+            "value": 608837537,
+            "range": "± 8806238",
             "unit": "ns/iter"
           }
         ]
